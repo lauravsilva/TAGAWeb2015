@@ -8,23 +8,25 @@
     padding: 0;
 }
 
+.row{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 .squareSolid{
     background: #0fad9e;
-    width: 100%;
-    min-width: 140px;
+    width: 140px;
     height: 140px;   
 }
 
 .squareSolidEboard{
     background: #eb5973;
-    width: 100%;
-    min-width: 220px;
+    width: 220px;
     height: 220px;   
 }
 
 .squareMember{
-    width: 100%;
-    min-width: 140px;
+    width: 140px;
     height: 140px;
 }
 
@@ -35,8 +37,7 @@
 }
 
 .squareEboard{
-    width: 100%;
-    min-width: 220px;
+    width: 220px;
     height: 220px;   
 }
 
