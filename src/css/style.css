@@ -1,0 +1,48 @@
+/*Global*/
+
+/*End Global*/
+
+/*Members Page*/
+.membersPage .col-md-2, .membersPage .col-md-3{
+    margin: 0;
+    padding: 0;
+}
+
+.squareSolid{
+    background: #0fad9e;
+    width: 100%;
+    min-width: 140px;
+    height: 140px;   
+}
+
+.squareSolidEboard{
+    background: #eb5973;
+    width: 100%;
+    min-width: 220px;
+    height: 220px;   
+}
+
+.squareMember{
+    width: 100%;
+    min-width: 140px;
+    height: 140px;
+}
+
+.squareMember:hover{
+    background: grey;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+.squareEboard{
+    width: 100%;
+    min-width: 220px;
+    height: 220px;   
+}
+
+.squareEboard:hover{
+    background: grey;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+/*End Members Page*/
