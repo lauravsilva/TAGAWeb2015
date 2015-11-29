@@ -1,0 +1,45 @@
+/*Members Page*/
+
+.membersPage {
+    .col-md-2, .col-md-3{
+        margin: 0;
+        padding: 0;
+    }
+
+    .row{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .squareSolid{
+        background: #0fad9e;
+        width: 140px;
+        height: 140px;   
+    }
+
+    .squareSolidEboard{
+        background: #eb5973;
+        width: 220px;
+        height: 220px;   
+    }
+
+    .squareMember{
+        width: 140px;
+        height: 140px;
+        &:hover{
+            background: grey;
+            opacity: 0.4;
+            filter: alpha(opacity=40);
+        }
+    }
+
+    .squareEboard{
+        width: 220px;
+        height: 220px;   
+        &:hover{
+            background: grey;
+            opacity: 0.4;
+            filter: alpha(opacity=40);
+        }
+    }
+}
