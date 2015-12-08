@@ -32,7 +32,13 @@
         <div class="navbar">
           <ul class="nav navbar-nav">
               <li <?= $active_page == "home" ? "class='active'": ""?>><div class="navlink"><a href="index.php">HOME</a></div></li>
-              <li <?= $active_page == "about" ? "class='active'": ""?>><div class="navlink"><a href="about.php">ABOUT</a></div></li>
+              <li class="dropdown" <?= $active_page == "members" ? "class='active'": ""?><?= $active_page == "process" ? "class='active'": ""?>>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                <ul class="dropdown-menu">
+                  <li><a href="members.php">Members</a></li>
+                  <li><a href="process.php">Process</a></li>
+                </ul>
+              </li>
               <li><div class="navbar-brand"><a href="index.php"><img src="assets/logo_desktop.png" id="tagalogo"></a></div></li>
               <li <?= $active_page == "portfolio" ? "class='active'": ""?>><div class="navlink"><a href="portfolio.php">WORK</a></div></li>
               <li <?= $active_page == "blog" ? "class='active'": ""?>><div class="navlink"><a href="blog.php">BLOG</a></div></li>
