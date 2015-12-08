@@ -29,7 +29,7 @@
             <span class="icon-bar"></span>
           </button>
         </div>
-        <div class="navbar">
+        <div class="navbar navbar-collapse collapse">
           <ul class="nav navbar-nav">
               <li <?= $active_page == "home" ? "class='active'": ""?>><div class="navlink"><a href="index.php">HOME</a></div></li>
               <li class="dropdown">
