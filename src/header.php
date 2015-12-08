@@ -32,8 +32,8 @@
         <div class="navbar">
           <ul class="nav navbar-nav">
               <li <?= $active_page == "home" ? "class='active'": ""?>><div class="navlink"><a href="index.php">HOME</a></div></li>
-              <li class="dropdown" <?= $active_page == "members" ? "class='active'": ""?><?= $active_page == "process" ? "class='active'": ""?>>
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+              <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><div class="navlink">About</div></a>
                 <ul class="dropdown-menu">
                   <li><a href="members.php">Members</a></li>
                   <li><a href="process.php">Process</a></li>
