@@ -7,8 +7,21 @@ div.navlink > a, li.navlink > a {
 }
 
 li.navlink > a:hover {
-    background-color: #f0535f;
+    background-color: #0bad9d;
     color:white;
+}
+
+.dropdown-menu {
+    background-color: #f0535f;
+    color: white;
+}
+
+.dropdown-menu > li > a {
+    color: white;
+}
+
+.dropdown-menu > li > a:hover {
+    background-color:#0bad9d;
 }
 
 .nav {
