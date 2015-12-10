@@ -5853,7 +5853,11 @@ a .social-icons {
 body {
   min-height: 2000px; }
 
-div.navlink > a {
+div.navlink > a, li.navlink > a {
+  color: white; }
+
+li.navlink > a:hover {
+  background-color: #f0535f;
   color: white; }
 
 .nav {
@@ -5875,6 +5879,10 @@ div.navlink > a {
 .navbar-default .navbar-nav > li > a {
   color: white; }
 
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  background-color: #f0535f;
+  color: white; }
+
 .navbar-default .navbar-nav > li:hover {
   background-color: #0bad9d; }
 
@@ -5888,6 +5896,9 @@ div.navlink > a {
   font-size: 18px;
   text-align: center;
   margin-top: 29px; }
+
+#navdropdown {
+  margin-top: -29px; }
 
 #tagalogo {
   width: 32px;
