@@ -1,0 +1,135 @@
+/* Process Page */
+
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+}
+
+/* typography */
+
+p {
+    font-family: "Garamond", "serif";
+    color: #2b3f56;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+h1 {
+    font-family: "open-sans", sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #2b3f56;
+}
+
+.blue h2 {
+     font-family: "open-sans", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #08ad9d;
+}
+
+.pink h2 {
+    font-family: "open-sans", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #f0535f;
+}
+
+/* size */
+
+.pink {
+    width: 600px;
+}
+
+.blue {
+    width: 600px;
+}
+
+.content {
+    width: 820px;
+    margin: 0 auto;
+}
+
+.blue p {
+    width: 400px;
+}
+
+.pink p {
+    width: 400px;
+}
+
+img {
+    width: 170px;
+}
+
+/* borders */
+
+.process .pink {
+    border-top: 7px solid #f0535f;
+}
+
+.process .blue {
+    border-top: 7px solid #08ad9d;
+}
+
+/* float */
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+div.blue {
+    float: right;
+    text-align: left;
+}
+
+div.pink {
+    float: left;
+    text-align: right;
+}
+
+.pink p {
+    float: right;
+}
+
+/* margins */
+
+.content {
+    margin-top: 36px;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+.pink {
+    margin-bottom: 60px;
+}
+
+.blue {
+    margin-bottom: 60px;
+}
+
+img {
+    margin-bottom: 45px;
+}
+
+/* padding */
+
+h1 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
