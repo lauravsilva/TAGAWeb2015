@@ -1,0 +1,17 @@
+// Colors
+$blue: #2b3f56;         //paragraph, footer background
+$teal: #08ad9d;         //headers
+$pink: #f0535f;         //nav background, nav hover text
+$gray: #d1d1d1;
+$white: #ffffff;        //nav text, nav hover, background color, footer text
+$black: #000000;
+
+
+// Global Styles
+
+p {
+    color: $blue;
+    font-family: $font-family-serif;
+    font-size: 16px;
+    line-height: 20px;
+}

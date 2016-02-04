@@ -23,7 +23,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="squareEboard">
-                        <img src="#" alt="" />
+                        <img src="assets/2_BW.jpg" alt="" />
                     </div>
                 </div>
                 <div class="col-md-3">

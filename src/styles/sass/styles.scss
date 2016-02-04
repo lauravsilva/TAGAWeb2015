@@ -1,6 +1,9 @@
 // Base bootstrap
 @import "_bootstrap";
-    
+
+// Global
+@import "_variables";
+
 // Specific pages
 @import "_members";
 @import "_footer";
