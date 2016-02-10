@@ -18,10 +18,6 @@ header {
 	background-color: #ef545f;
 }
     
-h1 {
-        
-    }
-    
 h2 {
     margin-top: 50px;
     padding: 0;
