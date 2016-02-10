@@ -1,0 +1,20 @@
+#about{
+    margin-top: 40px;
+    width: 620px;
+}
+
+p {
+    font-family: "Garamond", "serif";
+    color: #2b3f56;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+.buttons{
+    /*Guide Box*/
+    border: solid black 1px;
+    width:140px;
+    height: 140px;
+    margin-bottom: 40px;
+}
