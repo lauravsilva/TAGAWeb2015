@@ -8777,6 +8777,30 @@ p {
   line-height: 20px;
 }
 
+/* line 2, ../sass/_home.scss */
+.home .about {
+  margin-top: 40px;
+}
+/* line 6, ../sass/_home.scss */
+.home .donate-btn {
+  background: url(../../assets/home-fundraising.png);
+  width: 140px;
+  height: 140px;
+  margin: 40px 0;
+}
+/* line 13, ../sass/_home.scss */
+.home .contact-btn {
+  background: url(../../assets/home-fundraising.png);
+  width: 140px;
+  height: 140px;
+  margin: 40px 0;
+}
+/* line 20, ../sass/_home.scss */
+.home .carousel-inner {
+  width: 1020px;
+  height: 410px;
+}
+
 /*Members Page*/
 /* line 4, ../sass/_members.scss */
 .membersPage .col-md-2, .membersPage .col-md-3 {
@@ -8903,14 +8927,15 @@ a .social-icons {
 #footer {
   height: 80px;
   background-color: #2B3F56;
+  width: 100%;
 }
 
-/* line 20, ../sass/_footer.scss */
+/* line 21, ../sass/_footer.scss */
 .social-icons {
   padding-left: 40px;
 }
 
-/* line 24, ../sass/_footer.scss */
+/* line 25, ../sass/_footer.scss */
 .socialmedia {
   color: white;
   float: right;
@@ -9009,4 +9034,486 @@ li.navlink > a:hover {
   width: 32px;
   height: 60px;
   margin: auto;
+}
+
+/* line 3, ../sass/_archive.scss */
+.archive body {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 10, ../sass/_archive.scss */
+.archive header {
+  height: 105px;
+  width: 100%;
+  background-color: #ef545f;
+}
+/* line 20, ../sass/_archive.scss */
+.archive h2 {
+  margin-top: 50px;
+  padding: 0;
+}
+/* line 24, ../sass/_archive.scss */
+.archive h3 {
+  margin-top: 50px;
+  padding: 0;
+}
+/* line 30, ../sass/_archive.scss */
+.archive .hero {
+  margin-top: 50px;
+  height: 539px;
+  position: relative;
+}
+/* line 37, ../sass/_archive.scss */
+.archive .heromain {
+  height: 539px;
+  position: absolute;
+  left: 0px;
+  border-width: 1px;
+  border-color: #000001;
+  border-style: solid;
+  background-color: #ffffff;
+}
+/* line 47, ../sass/_archive.scss */
+.archive .herosub {
+  height: 360px;
+  position: absolute;
+  right: 0;
+  border-width: 1px;
+  border-color: #000001;
+  border-style: solid;
+  background-color: #ffffff;
+}
+/* line 57, ../sass/_archive.scss */
+.archive .herosub2 {
+  width: 238px;
+  height: 180px;
+  position: absolute;
+  left: 467px;
+  top: 359px;
+  border-width: 1px;
+  border-color: #000001;
+  border-style: solid;
+  background-color: #ffffff;
+}
+/* line 69, ../sass/_archive.scss */
+.archive .linkthisyear {
+  width: 238px;
+  height: 180px;
+  position: absolute;
+  right: 0px;
+  top: 359px;
+  background-color: #0cac9c;
+}
+/* line 78, ../sass/_archive.scss */
+.archive .pasttwoyears {
+  width: 936px;
+  height: 269px;
+  position: relative;
+}
+/* line 84, ../sass/_archive.scss */
+.archive .year1415 {
+  width: 470px;
+  height: 208px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border-width: 1px;
+  border-color: #000001;
+  border-style: solid;
+  background-color: #ffffff;
+}
+/* line 97, ../sass/_archive.scss */
+.archive .base1415 {
+  width: 470px;
+  height: 61px;
+  position: absolute;
+  left: 0px;
+  top: 208px;
+  background-color: #ef545f;
+}
+/* line 106, ../sass/_archive.scss */
+.archive .year1314 {
+  width: 470px;
+  height: 208px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  border-width: 1px;
+  border-color: #000001;
+  border-style: solid;
+  background-color: #ffffff;
+}
+/* line 119, ../sass/_archive.scss */
+.archive .base1314 {
+  width: 470px;
+  height: 61px;
+  position: absolute;
+  right: 0px;
+  top: 208px;
+  background-color: #0cac9c;
+}
+/* line 128, ../sass/_archive.scss */
+.archive .archivemodule {
+  width: 936px;
+  height: 332px;
+  position: relative;
+}
+/* line 134, ../sass/_archive.scss */
+.archive .archive {
+  width: 187.2px;
+  height: 166px;
+  position: relative;
+  float: left;
+  border-width: 1px;
+  border-color: #000001;
+  border-style: solid;
+}
+/* line 144, ../sass/_archive.scss */
+.archive .archivehoverpink {
+  width: 187.2px;
+  height: 166px;
+  background-color: rgba(239, 84, 95, 0.75);
+  opacity: 0;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+}
+/* line 153, ../sass/_archive.scss */
+.archive .archivehoverturq {
+  width: 187.2px;
+  height: 166px;
+  background-color: rgba(12, 172, 156, 0.75);
+  opacity: 0;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+}
+/* line 162, ../sass/_archive.scss */
+.archive .archive:hover .archivehoverpink {
+  opacity: 1;
+}
+/* line 166, ../sass/_archive.scss */
+.archive .archive:hover .archivehoverturq {
+  opacity: 1;
+}
+/* line 170, ../sass/_archive.scss */
+.archive a.archivetext {
+  padding-left: 45px;
+  line-height: 270px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 22px;
+}
+/* line 178, ../sass/_archive.scss */
+.archive a.archivetext:active, .archive a.archivetext:visited, .archive a.archivetext:hover {
+  padding-left: 45px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 22px;
+  text-decoration: none;
+}
+/* line 186, ../sass/_archive.scss */
+.archive #text {
+  position: absolute;
+  top: 45px;
+  width: 235px;
+}
+/* line 192, ../sass/_archive.scss */
+.archive .bookspaddingleft {
+  padding-left: 20px;
+  z-index: 1;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 32px;
+  line-height: 55px;
+}
+/* line 201, ../sass/_archive.scss */
+.archive a.bookspaddingleft:visited, .archive a.bookspaddingleft:active, .archive a.bookspaddingleft:hover {
+  color: #f0fffd;
+  text-decoration: none;
+}
+/* line 206, ../sass/_archive.scss */
+.archive a.books {
+  z-index: 1;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 32px;
+}
+/* line 213, ../sass/_archive.scss */
+.archive a.books:visited, .archive a.books:active, .archive a.books:hover {
+  color: #f0fffd;
+  text-decoration: none;
+}
+
+/* line 3, ../sass/_archive-detail.scss */
+.archive-detail body {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 10, ../sass/_archive-detail.scss */
+.archive-detail header {
+  height: 105px;
+  width: 100%;
+  background-color: #ef545f;
+}
+/* line 16, ../sass/_archive-detail.scss */
+.archive-detail h2 {
+  margin-top: 50px;
+  padding: 0;
+}
+/* line 21, ../sass/_archive-detail.scss */
+.archive-detail h3 {
+  padding: 0;
+}
+/* line 25, ../sass/_archive-detail.scss */
+.archive-detail h4 {
+  font-family: "open sans";
+  font-size: 22px;
+}
+/* line 30, ../sass/_archive-detail.scss */
+.archive-detail p {
+  margin-top: 20px;
+  font-family: "garamond";
+  font-size: 17px;
+  line-height: 25px;
+}
+/* line 37, ../sass/_archive-detail.scss */
+.archive-detail #content {
+  width: 936px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 43, ../sass/_archive-detail.scss */
+.archive-detail .hero {
+  margin-top: 50px;
+  width: 936px;
+  height: 659px;
+  position: relative;
+}
+/* line 50, ../sass/_archive-detail.scss */
+.archive-detail .heromain {
+  width: 469px;
+  height: 539px;
+  position: absolute;
+  left: 0px;
+  border-width: 1px;
+  border-color: #000001;
+  border-style: solid;
+  background-color: #ffffff;
+}
+/* line 60, ../sass/_archive-detail.scss */
+.archive-detail .herosub {
+  width: 469px;
+  height: 360px;
+  position: absolute;
+  right: 0;
+  border-width: 1px;
+  border-color: #000001;
+  border-style: solid;
+  background-color: #ffffff;
+}
+/* line 70, ../sass/_archive-detail.scss */
+.archive-detail .herosub2 {
+  width: 238px;
+  height: 180px;
+  position: absolute;
+  left: 467px;
+  top: 359px;
+  border-width: 1px;
+  border-color: #000001;
+  border-style: solid;
+  background-color: #ffffff;
+}
+/* line 82, ../sass/_archive-detail.scss */
+.archive-detail .herosub3 {
+  width: 238px;
+  height: 180px;
+  position: absolute;
+  right: 0px;
+  top: 359px;
+  border-width: 1px;
+  border-color: #000001;
+  border-style: solid;
+  background-color: #ffffff;
+}
+/* line 94, ../sass/_archive-detail.scss */
+.archive-detail .herotitle {
+  width: 936px;
+  height: 120px;
+  position: absolute;
+  right: 0px;
+  top: 538px;
+  border-width: 1px;
+  border-color: #000001;
+  border-style: solid;
+  background-color: #6ba0c2;
+}
+/* line 107, ../sass/_archive-detail.scss */
+.archive-detail p#titlebook {
+  font-family: "open sans";
+  font-size: 36px;
+  color: #ffffff;
+  position: relative;
+  top: 25px;
+  padding-left: 50px;
+}
+/* line 116, ../sass/_archive-detail.scss */
+.archive-detail .about {
+  width: 936px;
+  height: 200px;
+  margin-top: 50px;
+  position: relative;
+}
+/* line 123, ../sass/_archive-detail.scss */
+.archive-detail .membersmodule {
+  width: 936px;
+  height: 125px;
+  position: relative;
+}
+/* line 129, ../sass/_archive-detail.scss */
+.archive-detail .leftside {
+  width: 470px;
+  height: 200px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding-right: 50px;
+}
+/* line 138, ../sass/_archive-detail.scss */
+.archive-detail .rightside {
+  width: 470px;
+  height: 200px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+/* line 146, ../sass/_archive-detail.scss */
+.archive-detail .members1 {
+  width: 312.3px;
+  height: 125px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+/* line 154, ../sass/_archive-detail.scss */
+.archive-detail .members2 {
+  width: 312.3px;
+  height: 125px;
+  position: absolute;
+  top: 0px;
+  left: 312px;
+}
+/* line 162, ../sass/_archive-detail.scss */
+.archive-detail .members3 {
+  width: 312.3px;
+  height: 125px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+/* line 170, ../sass/_archive-detail.scss */
+.archive-detail a.backtext {
+  color: #ef545f;
+  font-family: "Open Sans";
+  font-size: 17px;
+}
+/* line 176, ../sass/_archive-detail.scss */
+.archive-detail a.backtext:active, .archive-detail a.backtext:visited, .archive-detail a.backtext:hover {
+  color: #ef545f;
+  font-family: "Open Sans";
+  font-size: 17px;
+  text-decoration: none;
+}
+/* line 183, ../sass/_archive-detail.scss */
+.archive-detail .archivemodule {
+  margin-top: 50px;
+  width: 936px;
+  height: 332px;
+  position: relative;
+}
+/* line 190, ../sass/_archive-detail.scss */
+.archive-detail .archive {
+  width: 187.2px;
+  height: 166px;
+  position: relative;
+  float: left;
+  border-width: 1px;
+  border-color: #000001;
+  border-style: solid;
+}
+/* line 200, ../sass/_archive-detail.scss */
+.archive-detail .archivehoverpink {
+  width: 187.2px;
+  height: 166px;
+  background-color: rgba(239, 84, 95, 0.75);
+  opacity: 0;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+}
+/* line 209, ../sass/_archive-detail.scss */
+.archive-detail .archivehoverturq {
+  width: 187.2px;
+  height: 166px;
+  background-color: rgba(12, 172, 156, 0.75);
+  opacity: 0;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+}
+/* line 218, ../sass/_archive-detail.scss */
+.archive-detail .archive:hover .archivehoverpink {
+  opacity: 1;
+}
+/* line 222, ../sass/_archive-detail.scss */
+.archive-detail .archive:hover .archivehoverturq {
+  opacity: 1;
+}
+/* line 227, ../sass/_archive-detail.scss */
+.archive-detail a.archivetext {
+  padding-left: 45px;
+  line-height: 270px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 22px;
+}
+/* line 235, ../sass/_archive-detail.scss */
+.archive-detail a.archivetext:active, .archive-detail a.archivetext:visited, .archive-detail a.archivetext:hover {
+  padding-left: 45px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 22px;
+  text-decoration: none;
+}
+/* line 243, ../sass/_archive-detail.scss */
+.archive-detail #text {
+  position: absolute;
+  top: 45px;
+  width: 235px;
+}
+/* line 249, ../sass/_archive-detail.scss */
+.archive-detail .bookspaddingleft {
+  padding-left: 20px;
+  z-index: 1;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 32px;
+  line-height: 55px;
+}
+/* line 258, ../sass/_archive-detail.scss */
+.archive-detail a.bookspaddingleft:visited, .archive-detail a.bookspaddingleft:active, .archive-detail a.bookspaddingleft:hover {
+  color: #f0fffd;
+  text-decoration: none;
+}
+/* line 263, ../sass/_archive-detail.scss */
+.archive-detail a.books {
+  z-index: 1;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 32px;
+}
+/* line 270, ../sass/_archive-detail.scss */
+.archive-detail a.books:visited, .archive-detail a.books:active, .archive-detail a.books:hover {
+  color: #f0fffd;
+  text-decoration: none;
 }
