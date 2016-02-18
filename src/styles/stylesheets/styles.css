@@ -8811,25 +8811,32 @@ p {
 .membersPage .row {
   margin-top: 15px;
   margin-bottom: 15px;
+  max-width: 992px;
 }
-/* line 14, ../sass/_members.scss */
+/* line 15, ../sass/_members.scss */
 .membersPage .squareSolid {
   background: #0fad9e;
   width: 140px;
   height: 140px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
-/* line 20, ../sass/_members.scss */
+/* line 23, ../sass/_members.scss */
 .membersPage .squareSolidEboard {
   background: #eb5973;
   width: 220px;
   height: 220px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
-/* line 26, ../sass/_members.scss */
+/* line 31, ../sass/_members.scss */
 .membersPage .squareMember {
   width: 140px;
   height: 140px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
-/* line 29, ../sass/_members.scss */
+/* line 36, ../sass/_members.scss */
 .membersPage .squareMember span.text-content {
   position: absolute;
   top: 0;
@@ -8844,29 +8851,33 @@ p {
   -moz-transition: opacity 500ms;
   -o-transition: opacity 500ms;
   transition: opacity 500ms;
+  margin-left: 15px;
+  margin-right: 15px;
 }
-/* line 44, ../sass/_members.scss */
+/* line 53, ../sass/_members.scss */
 .membersPage .squareMember:hover span.text-content {
   opacity: 1;
 }
-/* line 48, ../sass/_members.scss */
+/* line 57, ../sass/_members.scss */
 .membersPage .squareMember .text-content {
   padding: 15px;
 }
-/* line 50, ../sass/_members.scss */
+/* line 59, ../sass/_members.scss */
 .membersPage .squareMember .text-content .name {
   font-size: 16px;
 }
-/* line 53, ../sass/_members.scss */
+/* line 62, ../sass/_members.scss */
 .membersPage .squareMember .text-content .year-major {
   font-size: 14px;
 }
-/* line 59, ../sass/_members.scss */
+/* line 68, ../sass/_members.scss */
 .membersPage .squareEboard {
   width: 220px;
   height: 220px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
-/* line 62, ../sass/_members.scss */
+/* line 73, ../sass/_members.scss */
 .membersPage .squareEboard span.text-content {
   position: absolute;
   top: 0;
@@ -8881,31 +8892,81 @@ p {
   -moz-transition: opacity 500ms;
   -o-transition: opacity 500ms;
   transition: opacity 500ms;
+  margin-left: 15px;
+  margin-right: 15px;
 }
-/* line 77, ../sass/_members.scss */
+/* line 90, ../sass/_members.scss */
 .membersPage .squareEboard:hover span.text-content {
   opacity: 1;
 }
-/* line 81, ../sass/_members.scss */
+/* line 94, ../sass/_members.scss */
 .membersPage .squareEboard .text-content {
   padding: 20px;
 }
-/* line 83, ../sass/_members.scss */
+/* line 96, ../sass/_members.scss */
 .membersPage .squareEboard .text-content .name {
   font-size: 20px;
 }
-/* line 86, ../sass/_members.scss */
+/* line 99, ../sass/_members.scss */
 .membersPage .squareEboard .text-content .year-major {
   font-size: 18px;
 }
-/* line 92, ../sass/_members.scss */
+/* line 105, ../sass/_members.scss */
 .membersPage .text-content {
   color: #000000;
 }
-/* line 94, ../sass/_members.scss */
+/* line 107, ../sass/_members.scss */
 .membersPage .text-content .name {
   text-transform: uppercase;
   font-weight: bold;
+}
+/* line 116, ../sass/_members.scss */
+.membersPage .teams {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: table;
+}
+/* line 122, ../sass/_members.scss */
+.membersPage .teams li {
+  margin: 0 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 129, ../sass/_members.scss */
+.membersPage .team-circle {
+  width: 26px;
+  height: 26px;
+  -moz-border-radius: 13px;
+  -webkit-border-radius: 13px;
+  border-radius: 13px;
+  display: inline-block;
+  margin: 0 5px;
+}
+/* line 137, ../sass/_members.scss */
+.membersPage .team-circle.creative {
+  background: #ff2d31;
+}
+/* line 140, ../sass/_members.scss */
+.membersPage .team-circle.digital {
+  background: #f6a9b8;
+}
+/* line 143, ../sass/_members.scss */
+.membersPage .team-circle.fundraising {
+  background: #891430;
+}
+/* line 146, ../sass/_members.scss */
+.membersPage .team-circle.photo {
+  background: #87d9dc;
+}
+/* line 149, ../sass/_members.scss */
+.membersPage .team-circle.print {
+  background: #00997d;
+}
+/* line 152, ../sass/_members.scss */
+.membersPage .team-circle.web {
+  background: #2b3f57;
 }
 
 /*Footer*/
@@ -9516,4 +9577,137 @@ li.navlink > a:hover {
 .archive-detail a.books:visited, .archive-detail a.books:active, .archive-detail a.books:hover {
   color: #f0fffd;
   text-decoration: none;
+}
+
+/* Process Page */
+/* line 3, ../sass/_process.scss */
+.progress {
+  /* typography */
+  /* size */
+  /* borders */
+  /* float */
+  /* margins */
+  /* padding */
+}
+/* line 5, ../sass/_process.scss */
+.progress body {
+  width: 100%;
+  margin: 0 auto;
+}
+/* line 10, ../sass/_process.scss */
+.progress img {
+  display: block;
+}
+/* line 16, ../sass/_process.scss */
+.progress p {
+  font-family: "Garamond", "serif";
+  color: #2b3f56;
+  font-size: 16px;
+  line-height: 20px;
+}
+/* line 23, ../sass/_process.scss */
+.progress h1 {
+  font-family: "open-sans", sans-serif;
+  font-size: 46px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #2b3f56;
+}
+/* line 33, ../sass/_process.scss */
+.progress .blue h2 {
+  font-family: "open-sans", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #08ad9d;
+}
+/* line 41, ../sass/_process.scss */
+.progress .pink h2 {
+  font-family: "open-sans", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #f0535f;
+}
+/* line 51, ../sass/_process.scss */
+.progress .pink {
+  width: 600px;
+}
+/* line 55, ../sass/_process.scss */
+.progress .blue {
+  width: 600px;
+}
+/* line 59, ../sass/_process.scss */
+.progress .content {
+  width: 820px;
+  margin: 0 auto;
+}
+/* line 64, ../sass/_process.scss */
+.progress .blue p {
+  width: 400px;
+}
+/* line 68, ../sass/_process.scss */
+.progress .pink p {
+  width: 400px;
+}
+/* line 72, ../sass/_process.scss */
+.progress img {
+  width: 170px;
+}
+/* line 78, ../sass/_process.scss */
+.progress .process .pink {
+  border-top: 7px solid #f0535f;
+}
+/* line 82, ../sass/_process.scss */
+.progress .process .blue {
+  border-top: 7px solid #08ad9d;
+}
+/* line 88, ../sass/_process.scss */
+.progress .left {
+  float: left;
+}
+/* line 92, ../sass/_process.scss */
+.progress .right {
+  float: right;
+}
+/* line 96, ../sass/_process.scss */
+.progress div.blue {
+  float: right;
+  text-align: left;
+}
+/* line 101, ../sass/_process.scss */
+.progress div.pink {
+  float: left;
+  text-align: right;
+}
+/* line 106, ../sass/_process.scss */
+.progress .pink p {
+  float: right;
+}
+/* line 112, ../sass/_process.scss */
+.progress .content {
+  margin-top: 36px;
+}
+/* line 116, ../sass/_process.scss */
+.progress h2 {
+  margin-top: 10px;
+}
+/* line 120, ../sass/_process.scss */
+.progress .pink {
+  margin-bottom: 60px;
+}
+/* line 124, ../sass/_process.scss */
+.progress .blue {
+  margin-bottom: 60px;
+}
+/* line 128, ../sass/_process.scss */
+.progress img {
+  margin-bottom: 45px;
+}
+/* line 134, ../sass/_process.scss */
+.progress h1 {
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
