@@ -1717,7 +1717,7 @@ html {
 
 /* line 27, ../sass/bootstrap/_scaffolding.scss */
 body {
-  font-family: "Open Sans 700", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857;
   color: #333333;
@@ -2372,12 +2372,6 @@ pre code {
   /* line 10, ../sass/bootstrap/_grid.scss */
   .container {
     width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  /* line 10, ../sass/bootstrap/_grid.scss */
-  .container {
-    width: 1170px;
   }
 }
 
@@ -7859,7 +7853,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Open Sans 700", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -7997,7 +7991,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Open Sans 700", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -9581,32 +9575,21 @@ li.navlink > a:hover {
 
 /* Process Page */
 /* line 3, ../sass/_process.scss */
-.progress {
+.process {
   /* typography */
-  /* size */
-  /* borders */
-  /* float */
   /* margins */
   /* padding */
 }
-/* line 5, ../sass/_process.scss */
-.progress body {
-  width: 100%;
-  margin: 0 auto;
+/* line 4, ../sass/_process.scss */
+.process img {
+  float: left;
 }
-/* line 10, ../sass/_process.scss */
-.progress img {
-  display: block;
+/* line 9, ../sass/_process.scss */
+.process p {
+  width: 50%;
 }
-/* line 16, ../sass/_process.scss */
-.progress p {
-  font-family: "Garamond", "serif";
-  color: #2b3f56;
-  font-size: 16px;
-  line-height: 20px;
-}
-/* line 23, ../sass/_process.scss */
-.progress h1 {
+/* line 13, ../sass/_process.scss */
+.process h1 {
   font-family: "open-sans", sans-serif;
   font-size: 46px;
   font-weight: 700;
@@ -9615,99 +9598,48 @@ li.navlink > a:hover {
   text-align: center;
   background-color: #2b3f56;
 }
-/* line 33, ../sass/_process.scss */
-.progress .blue h2 {
+/* line 23, ../sass/_process.scss */
+.process .blue h2 {
   font-family: "open-sans", sans-serif;
   font-size: 30px;
   font-weight: 700;
   text-transform: uppercase;
   color: #08ad9d;
 }
-/* line 41, ../sass/_process.scss */
-.progress .pink h2 {
+/* line 31, ../sass/_process.scss */
+.process .pink h2 {
   font-family: "open-sans", sans-serif;
   font-size: 30px;
   font-weight: 700;
   text-transform: uppercase;
   color: #f0535f;
 }
-/* line 51, ../sass/_process.scss */
-.progress .pink {
-  width: 600px;
-}
-/* line 55, ../sass/_process.scss */
-.progress .blue {
-  width: 600px;
-}
-/* line 59, ../sass/_process.scss */
-.progress .content {
-  width: 820px;
-  margin: 0 auto;
-}
-/* line 64, ../sass/_process.scss */
-.progress .blue p {
-  width: 400px;
-}
-/* line 68, ../sass/_process.scss */
-.progress .pink p {
-  width: 400px;
-}
-/* line 72, ../sass/_process.scss */
-.progress img {
-  width: 170px;
-}
-/* line 78, ../sass/_process.scss */
-.progress .process .pink {
-  border-top: 7px solid #f0535f;
-}
-/* line 82, ../sass/_process.scss */
-.progress .process .blue {
+/* line 40, ../sass/_process.scss */
+.process .blue {
   border-top: 7px solid #08ad9d;
-}
-/* line 88, ../sass/_process.scss */
-.progress .left {
   float: left;
-}
-/* line 92, ../sass/_process.scss */
-.progress .right {
-  float: right;
-}
-/* line 96, ../sass/_process.scss */
-.progress div.blue {
-  float: right;
   text-align: left;
+  width: 100%;
+  margin-top: 40px;
 }
-/* line 101, ../sass/_process.scss */
-.progress div.pink {
+/* line 48, ../sass/_process.scss */
+.process .pink {
+  border-top: 7px solid #f0535f;
   float: left;
   text-align: right;
+  width: 100%;
+  margin-top: 40px;
 }
-/* line 106, ../sass/_process.scss */
-.progress .pink p {
+/* line 54, ../sass/_process.scss */
+.process .pink p {
   float: right;
 }
-/* line 112, ../sass/_process.scss */
-.progress .content {
-  margin-top: 36px;
-}
-/* line 116, ../sass/_process.scss */
-.progress h2 {
+/* line 60, ../sass/_process.scss */
+.process h2 {
   margin-top: 10px;
 }
-/* line 120, ../sass/_process.scss */
-.progress .pink {
-  margin-bottom: 60px;
-}
-/* line 124, ../sass/_process.scss */
-.progress .blue {
-  margin-bottom: 60px;
-}
-/* line 128, ../sass/_process.scss */
-.progress img {
-  margin-bottom: 45px;
-}
-/* line 134, ../sass/_process.scss */
-.progress h1 {
+/* line 65, ../sass/_process.scss */
+.process h1 {
   padding-top: 16px;
   padding-bottom: 16px;
 }

@@ -1,23 +1,13 @@
 /* Process Page */
 
-.progress{
-
-    body {
-        width: 100%;
-        margin: 0 auto;
-    }
-
+.process{
     img {
-        display: block;
+        float: left;
     }
 
     /* typography */
-
     p {
-        font-family: "Garamond", "serif";
-        color: #2b3f56;
-        font-size: 16px;
-        line-height: 20px;
+        width: 50%;
     }
 
     h1 {
@@ -46,91 +36,32 @@
         color: #f0535f;
     }
 
-    /* size */
-
-    .pink {
-        width: 600px;
-    }
 
     .blue {
-        width: 600px;
-    }
-
-    .content {
-        width: 820px;
-        margin: 0 auto;
-    }
-
-    .blue p {
-        width: 400px;
-    }
-
-    .pink p {
-        width: 400px;
-    }
-
-    img {
-        width: 170px;
-    }
-
-    /* borders */
-
-    .process .pink {
-        border-top: 7px solid #f0535f;
-    }
-
-    .process .blue {
         border-top: 7px solid #08ad9d;
-    }
-
-    /* float */
-
-    .left {
         float: left;
-    }
-
-    .right {
-        float: right;
-    }
-
-    div.blue {
-        float: right;
         text-align: left;
+        width: 100%;
+        margin-top: 40px;
     }
 
-    div.pink {
+    .pink {
+        border-top: 7px solid #f0535f;
         float: left;
         text-align: right;
-    }
-
-    .pink p {
-        float: right;
+        width: 100%;
+        margin-top: 40px;
+        p {
+            float: right;
+        }
     }
 
     /* margins */
-
-    .content {
-        margin-top: 36px;
-    }
-
     h2 {
         margin-top: 10px;
     }
 
-    .pink {
-        margin-bottom: 60px;
-    }
-
-    .blue {
-        margin-bottom: 60px;
-    }
-
-    img {
-        margin-bottom: 45px;
-    }
-
     /* padding */
-
     h1 {
         padding-top: 16px;
         padding-bottom: 16px;

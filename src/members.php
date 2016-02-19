@@ -5,17 +5,27 @@
 ?> 
 
 <body>
-
-
         <div class="container membersPage">
 
             <ul class="teams"> 
-                <li>Creative / Design</li>
-                <li>Digital</li>
-                <li>Fundraising</li>
-                <li>Photo / Video</li>
-                <li>Print</li>
-                <li>Web</li>
+                <li>
+                    <div class="team-circle creative"></div> <p>Creative / Design</p>
+                </li>
+                <li>
+                    <div class="team-circle digital"></div> <p>Digital</p>
+                </li>
+                <li>
+                    <div class="team-circle fundraising"></div><p>Fundraising</p>
+                </li>
+                <li>
+                    <div class="team-circle photo"></div><p>Photo / Video</p>
+                </li>
+                <li>
+                    <div class="team-circle print"></div><p>Print</p>
+                </li>
+                <li>
+                    <div class="team-circle web"></div><p>Web</p>
+                </li>
             </ul>
 
             <h1>Eboard</h1>
@@ -31,6 +41,12 @@
                             <div class="name">Alissa Roy, President</div>
                             <div class="year-major">3rd Year</div>
                             <div class="year-major">Media Arts and Technology</div>
+                            <div class="team-circle creative"></div>
+                            <div class="team-circle digital"></div>
+                            <div class="team-circle fundraising"></div>
+                            <div class="team-circle photo"></div>
+                            <div class="team-circle print"></div>
+                            <div class="team-circle web"></div>
                         </span>
                     </div>
                 </div>
