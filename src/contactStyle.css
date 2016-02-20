@@ -1,0 +1,59 @@
+h1{
+ font-family: "Open Sans", sans-serif;
+     font-size:22px;
+}
+
+p{
+    font-size:17px;
+      color: #2b3f56;
+    
+  font-family: Garamond, Georgia, Times, serif;
+}
+a{
+    text-decoration: none;
+    color: #f0535f;
+    
+}
+
+#about{
+    margin-top: 40px;
+        width:460px;
+    padding: 20px;
+    
+}
+
+#contactUs{
+     padding: 20px;
+  margin-top: 40px;
+    width:302px;
+    
+   
+}
+#address{
+    margin-top: 20px;
+    
+}
+
+#followUs{
+     padding: 20px;
+    margin-top: 40px;
+   width:302px; 
+   
+}
+
+ul{
+}
+
+
+#{
+    
+    
+}
+
+img{
+    height: 20px;
+width: 73px;    
+    margin-right: 20px;
+    
+}
+
