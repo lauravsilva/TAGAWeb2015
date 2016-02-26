@@ -6,23 +6,105 @@
 
   <title>Contact</title>
 
-
+<link href="../../../TAGAWeb2015-master/src/styles/stylesheets/styles.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="contactStyle.css">
+<style>
+h1 {
+    padding: 0;
+    width: 100%;
+    height: 65px;
+    line-height: 67px;
+    font-size: 35px;
+    font-family: $font-family-sans-serif;
+    color: #ffffff; /* $white */
+    background-color: #2b3f56; /* $teal */
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    }
+    
+/*Blue*/    
+h2 {
+    padding-top: 8px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: $font-family-sans-serif;
+    color: #08ad9d; /* $teal */
+    border-top: 7px solid;
+    border-top-color: #08ad9d; /* $teal */
+    width: 100%;
+    }
 
+/*Pink*/    
+h3 {
+    padding-top: 8px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: right;
+    text-transform: uppercase;
+    font-family: $font-family-sans-serif;
+    color: #f0535f; /* $pink */
+    border-top: 7px solid;
+    border-top-color: #f0535f; /* $pink */
+    width: 100%;
+    }
+
+h4 {
+    padding: 0;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: $font-family-sans-serif;
+    color: #08ad9d; /* $teal */
+    font-weight: 500;
+    margin-top: 50px;
+    }  
+
+
+p {
+    color: #000000; /* $black */
+    font-family: "Garamond"; /* $font-family-serif */
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 20px;
+    
+}
+
+a, a:active, a:visited {
+    color: #08ad9d; /* $teal */
+    font-family: "Garamond"; /* $font-family-serif */
+    font-weight: 800;
+    -webkit-transition: color .1s ease-in;
+    -moz-transition: color .1s ease-in;
+    }
+
+a:hover {
+    color: #f0535f; /* $pink */
+    text-decoration: none;
+    -webkit-transition: color .1s ease-out;
+    -moz-transition: color .1s ease-out;
+    }    
+    
+</style>
   
     
 </head>
 
 <body>
     <div id="about">
-        <h1>About Us</h1>
+        <h4>About Us</h4>
     <p>The RIT Student Chapter of TAGA (Technical Association of the Graphic Arts) conceptualizes, designs, and produces a yearly print and digital publication containing technical papers written by undergraduate and graduate students. Our chapter is comprised of a diverse range of students that enjoy learning about and being part of the graphic arts industry. Each year the chapter travels to the TAGA Conference where we compete with other schools.</p>
     </div>
     
 <!--Missing Info--> 
     
         <div id="contactUs">
-        <h1>Contact Us</h1>
+        <h4>Contact Us</h4>
             
 <ul style="list-style-type:none">
     <!--I'm not really sure how to fix how it is indented -->
@@ -36,15 +118,31 @@
   <li>Rochester, NY</li>
     <li>14623</li>
 </ul>  
-            
-        
+
+<!--Form Code-->    
+ <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	<div class="row">
+		<label for="name">Your name:</label><br />
+		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="email">Your email:</label><br />
+		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="message">Your message:</label><br />
+		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+	</div>
+	<input id="submit_button" type="submit" value="Send email" />
+</form>
+    
        </div>     
     </div>
 
     
    <!--Contact--> 
     <div id="followUs">
-        <h1>Follow Us</h1>
+        <h4>Follow Us</h4>
     <img src="url" alt="Instagram">
         <img src="url" alt="Twitter">
         <img src="url" alt="Youtube">
