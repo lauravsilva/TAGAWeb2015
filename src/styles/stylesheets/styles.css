@@ -8951,7 +8951,7 @@ a:hover {
 }
 /* line 70, ../sass/_members.scss */
 .membersPage .squareMember .text-content .year-major {
-  font-size: 14px;
+  font-size: 12px;
 }
 /* line 73, ../sass/_members.scss */
 .membersPage .squareMember .text-content .team-circle {
@@ -9036,7 +9036,7 @@ a:hover {
   -webkit-border-radius: 13px;
   border-radius: 13px;
   display: inline-block;
-  margin: 4ps 5px;
+  margin: 4px 5px;
 }
 /* line 154, ../sass/_members.scss */
 .membersPage .team-circle.creative {
