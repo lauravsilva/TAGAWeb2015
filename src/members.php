@@ -7,12 +7,21 @@
 <body>
         <div class="container membersPage">
 
+            <h1>Meet the Team</h1>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec volutpat vestibulum nibh id lacinia. Nam turpis mi, suscipit tristique rutrum a, scelerisque sit amet libero. Donec dapibus urna tristique, tincidunt mauris scelerisque, convallis tortor. Curabitur interdum ante ex, quis placerat mauris fermentum ac. Donec egestas nisl purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec lacinia laoreet pellentesque. Vivamus rhoncus ipsum sed nisl placerat, nec suscipit sem lobortis. </p>
+            
             <ul class="teams"> 
                 <li>
-                    <div class="team-circle creative"></div> <p>Creative / Design</p>
+                    <div class="team-circle creative"></div><p>Creative / Design</p>
                 </li>
+                
                 <li>
-                    <div class="team-circle digital"></div> <p>Digital</p>
+                    <div class="team-circle copyedit"></div><p>Copy Editing</p>
+                </li>
+                
+                <li>
+                    <div class="team-circle digital"></div><p>Digital</p>
                 </li>
                 <li>
                     <div class="team-circle fundraising"></div><p>Fundraising</p>
@@ -28,7 +37,7 @@
                 </li>
             </ul>
 
-            <h1>Eboard</h1>
+            <h3>Eboard</h3>
             <div class="row">
                 <div class="col-md-3">
                     <div class="squareSolidEboard">
@@ -41,12 +50,9 @@
                             <div class="name">Alissa Roy, President</div>
                             <div class="year-major">3rd Year</div>
                             <div class="year-major">Media Arts and Technology</div>
-                            <div class="team-circle creative"></div>
                             <div class="team-circle digital"></div>
-                            <div class="team-circle fundraising"></div>
-                            <div class="team-circle photo"></div>
-                            <div class="team-circle print"></div>
                             <div class="team-circle web"></div>
+                            <div class="team-circle copyedit"></div>
                         </span>
                     </div>
                 </div>
@@ -57,6 +63,7 @@
                             <div class="name">Mitchell Morgan, Vice President</div>
                             <div class="year-major">2nd Year</div>
                             <div class="year-major">Media Arts and Technology</div>
+                            <div class="team-circle print"></div>
                         </span>
                     </div>
                 </div>
@@ -73,6 +80,7 @@
                             <div class="name">Olivia Konys, Creative Director</div>
                             <div class="year-major">4th Year</div>
                             <div class="year-major">Media Arts and Technology</div>
+                            <div class="team-circle creative"></div>
                         </span>
                     </div>
                 </div>
@@ -83,6 +91,7 @@
                             <div class="name">Hannah Mulford, Secretary</div>
                             <div class="year-major">3rd Year</div>
                             <div class="year-major">Media Arts and Technology</div>
+                            <div class="team-circle photo"></div>
                         </span>
                     </div>
                 </div>
@@ -93,6 +102,7 @@
                             <div class="name">Abigail Austin, Treasurer</div>
                             <div class="year-major">2nd Year</div>
                             <div class="year-major">Media Arts and Technology</div>
+                            <div class="team-circle fundraising"></div>
                         </span>
                     </div>
                 </div>
@@ -103,12 +113,15 @@
                             <div class="name">Mandi Moon, Operations Manager</div>
                             <div class="year-major">4th Year</div>
                             <div class="year-major">Media Arts and Technology</div>
+                            <div class="team-circle copyedit"></div>
+                            <div class="team-circle digital"></div>
+                            <div class="team-circle web"></div>
                         </span>
                     </div>
                 </div>
             </div>
 
-            <h1>Members</h1>
+            <h2>Members</h2>
             <div class="row members">
                 <div class="col-md-2">
                     <div class="squareMember">
@@ -117,6 +130,9 @@
                             <div class="name">Jolia Thadal</div>
                             <div class="year-major">1st Year</div>
                             <div class="year-major">Media Arts and Technology</div>
+                            <div class="team-circle creative"></div>
+                            <div class="team-circle fundraising"></div>
+                            <div class="team-circle web"></div>
                         </span>
                     </div>
                 </div>
@@ -130,7 +146,8 @@
                         <span class="text-content">
                             <div class="name">Jason Schultz</div>
                             <div class="year-major">3rd Year</div>
-                            <div class="year-major">Photography</div>
+                            <div class="year-major">Animation</div>
+                            <div class="team-circle photo"></div>
                         </span>
                     </div>
                 </div>
@@ -145,6 +162,9 @@
                             <div class="name">Emma Strongin</div>
                             <div class="year-major">2nd year</div>
                             <div class="year-major">Media Arts and Technology</div>
+                            <div class="team-circle fundraising"></div>
+                            <div class="team-circle digital"></div>
+                            <div class="team-circle print"></div>
                         </span>
                     </div>
                 </div>
@@ -165,6 +185,7 @@
                             <div class="name">Arianna Wagar</div>
                             <div class="year-major">1st year</div>
                             <div class="year-major">Graphic Design</div>
+                            <div class="team-circle creative"></div>
                         </span>
                     </div>
                 </div>
@@ -179,6 +200,8 @@
                             <div class="name">Meghan Olexa</div>
                             <div class="year-major">3rd year</div>
                             <div class="year-major">Graphic Design</div>
+                            <div class="team-circle copyedit"></div>
+                            <div class="team-circle web"></div>
                         </span>
                     </div>
                 </div>
@@ -193,6 +216,8 @@
                             <div class="name">Dennae Makel</div>
                             <div class="year-major">3rd year</div>
                             <div class="year-major">Graphic Design</div>
+                            <div class="team-circle creative"></div>
+                            <div class="team-circle web"></div>
                         </span>
                     </div>
                 </div>
@@ -205,6 +230,9 @@
                             <div class="name">Voltaire Hardy</div>
                             <div class="year-major">3rd year</div>
                             <div class="year-major">Graphic Design</div>
+                            <div class="team-circle creative"></div>
+                            <div class="team-circle fundraising"></div>
+                            <div class="team-circle print"></div>
                         </span>
                     </div>
                 </div>
@@ -219,6 +247,9 @@
                             <div class="name">Brian Cusack</div>
                             <div class="year-major">3rd year</div>
                             <div class="year-major">Industrial Design</div>
+                            <div class="team-circle creative"></div>
+                            <div class="team-circle print"></div>
+                            <div class="team-circle web"></div>
                         </span>
                     </div>
                 </div>
@@ -233,6 +264,7 @@
                             <div class="name">Laura Silva</div>
                             <div class="year-major">3rd Year</div>
                             <div class="year-major">New Media Interactive Development</div>
+                            <div class="team-circle web"></div>
                         </span>
                     </div>
                 </div>

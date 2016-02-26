@@ -7,12 +7,12 @@ div.navlink > a, li.navlink > a {
 }
 
 li.navlink > a:hover {
-    background-color: #0bad9d;
+    background-color: $teal;
     color:white;
 }
 
 .dropdown-menu {
-    background-color: #f0535f;
+    background-color: $pink;
     color: white;
 }
 
@@ -21,7 +21,7 @@ li.navlink > a:hover {
 }
 
 .dropdown-menu > li > a:hover {
-    background-color:#0bad9d;
+    background-color:$teal;
 }
 
 .nav {
@@ -30,7 +30,7 @@ li.navlink > a:hover {
 }
 
 .navbar {
-    background-color: #f0535f;
+    background-color: $pink;
     width:auto;
     margin:auto;
     border:none;
@@ -48,16 +48,16 @@ li.navlink > a:hover {
 }
 
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    background-color: #f0535f;
+    background-color: $pink;
     color: white;
 }
 
 .navbar-default .navbar-nav > li:hover {
-    background-color:#0bad9d;
+    background-color:$teal;
 }
 
 .navbar-default .navbar-nav > li.active {
-    background-color: #0bad9d;
+    background-color: $teal;
 }
 
 .navlink {
@@ -66,11 +66,11 @@ li.navlink > a:hover {
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     text-align:center;
-    margin-top:29px;
+//    margin-top:29px;
 }
 
 #navdropdown {
-    margin-top: -29px;
+//    margin-top: -29px;
 }
 
 #tagalogo {

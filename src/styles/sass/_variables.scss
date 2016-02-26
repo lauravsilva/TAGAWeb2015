@@ -9,6 +9,7 @@ $black: #000000;        //Paragraph text
 
 // Global Styles
 
+/*Blue*/
 h1 {
     padding: 0;
     width: 100%;
@@ -16,75 +17,75 @@ h1 {
     line-height: 67px;
     font-size: 35px;
     font-family: $font-family-sans-serif;
-    color: #ffffff; /* $white */
-    background-color: #2b3f56; /* $teal */
+    color: $white;
+    background-color: $blue;
     font-weight: 600;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
-    }
+    margin-top: 0;
+}
 
-/*Blue*/    
+/*Teal*/    
 h2 {
     padding-top: 8px;
-    margin-top: 50px;
+    margin-top: 25px;
     margin-bottom: 25px;
     font-size: 28px;
     font-weight: 700;
     text-transform: uppercase;
     font-family: $font-family-sans-serif;
-    color: #08ad9d; /* $teal */
+    color: $teal;
     border-top: 7px solid;
-    border-top-color: #08ad9d; /* $teal */
+    border-top-color: $teal;
     width: 100%;
     }
 
 /*Pink*/    
 h3 {
     padding-top: 8px;
-    margin-top: 50px;
+    margin-top: 25px;
     margin-bottom: 25px;
     font-size: 28px;
     font-weight: 700;
-    text-align: right;
     text-transform: uppercase;
     font-family: $font-family-sans-serif;
-    color: #f0535f; /* $pink */
-    border-top: 7px solid;
-    border-top-color: #f0535f; /* $pink */
+    color: $pink;
+    border-top: 7px solid $pink;
+    border-top-color: $pink;
     width: 100%;
     }
 
 h4 {
     padding: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
     font-size: 24px;
     text-transform: uppercase;
     font-family: $font-family-sans-serif;
-    color: #08ad9d; /* $teal */
+    color: $teal;
     font-weight: 500;
     margin-top: 50px;
-    }  
-
+}  
 
 p {
-    color: #000000; /* $black */
-    font-family: "Garamond"; /* $font-family-serif */
+    color: $black;
+    font-family: $font-family-serif;
     font-size: 14px;
     line-height: 25px;
-    margin-top: 20px;
-    
+    margin-top: 20px;   
 }
 
 a, a:active, a:visited {
-    color: #08ad9d; /* $teal */
-    font-family: "Garamond"; /* $font-family-serif */
+    color: $pink;
+    font-family: $font-family-serif;
     font-weight: 800;
     -webkit-transition: color .1s ease-in;
     -moz-transition: color .1s ease-in;
     }
 
 a:hover {
-    color: #f0535f; /* $pink */
+    color: $teal;
     text-decoration: none;
     -webkit-transition: color .1s ease-out;
     -moz-transition: color .1s ease-out;
