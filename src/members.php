@@ -9,7 +9,7 @@
 
             <h1>Meet the Team</h1>
             
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec volutpat vestibulum nibh id lacinia. Nam turpis mi, suscipit tristique rutrum a, scelerisque sit amet libero. Donec dapibus urna tristique, tincidunt mauris scelerisque, convallis tortor. Curabitur interdum ante ex, quis placerat mauris fermentum ac. Donec egestas nisl purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec lacinia laoreet pellentesque. Vivamus rhoncus ipsum sed nisl placerat, nec suscipit sem lobortis. </p>
+            <p>This year&rsquo;s RIT TAGA chapter is the largest it has been in years, and every single participant has, in one way or another, contributed something amazing that helped to make this year&rsquo;s project the greatest one yet. Every skillset, whether it is design, digital, or production, was used in order to create our unique and multidisciplinary project.</p>
             
             <ul class="teams"> 
                 <li>

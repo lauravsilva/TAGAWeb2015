@@ -64,7 +64,7 @@ include "header.php";
             <div class="col-md-10">
                 <div class="web blue">
                     <h2>Website</h2>
-                    <p>Design our website to be user-friendly and carry our current theme into an online platform. Ensure proper mobile and tablet optimization.</p>
+                    <p>Design our website to be user-friendly and carry our current theme into an online platform. <!--Ensure proper mobile and tablet optimization.--></p>
                 </div>
             </div>
         </div>
