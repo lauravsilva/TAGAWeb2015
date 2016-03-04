@@ -9104,87 +9104,78 @@ a .social-icons {
   size: 35px;
 }
 
-/* line 5, ../sass/_nav.scss */
-div.navlink > a, li.navlink > a {
+/* line 3, ../sass/_nav.scss */
+.navigation div.navlink > a, .navigation li.navlink > a, .navigation #navdropdown a {
   color: white;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
 }
-
-/* line 9, ../sass/_nav.scss */
-li.navlink > a:hover {
+/* line 10, ../sass/_nav.scss */
+.navigation li.navlink > a:hover {
   background-color: #08ad9d;
   color: white;
 }
-
-/* line 14, ../sass/_nav.scss */
-.dropdown-menu {
+/* line 15, ../sass/_nav.scss */
+.navigation .dropdown-menu {
   background-color: #f0535f;
   color: white;
 }
-
-/* line 19, ../sass/_nav.scss */
-.dropdown-menu > li > a {
+/* line 20, ../sass/_nav.scss */
+.navigation .dropdown-menu > li > a {
   color: white;
 }
-
-/* line 23, ../sass/_nav.scss */
-.dropdown-menu > li > a:hover {
+/* line 24, ../sass/_nav.scss */
+.navigation .dropdown-menu > li > a:hover {
   background-color: #08ad9d;
 }
-
-/* line 27, ../sass/_nav.scss */
-.nav {
+/* line 28, ../sass/_nav.scss */
+.navigation .nav {
   height: 80px;
   margin: 0 auto;
 }
-
-/* line 32, ../sass/_nav.scss */
-.navbar {
+/* line 33, ../sass/_nav.scss */
+.navigation .navbar {
   background-color: #f0535f;
   width: auto;
   margin: auto;
   border: none;
 }
-
-/* line 39, ../sass/_nav.scss */
-.navbar-brand {
+/* line 40, ../sass/_nav.scss */
+.navigation .navbar-brand {
   max-width: 254px;
   margin: auto;
   padding-left: 30px;
   height: 80px;
 }
-
-/* line 46, ../sass/_nav.scss */
-.navbar-default .navbar-nav > li > a {
+/* line 47, ../sass/_nav.scss */
+.navigation .navbar-default .navbar-nav > li > a {
   color: white;
 }
-
-/* line 50, ../sass/_nav.scss */
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+/* line 51, ../sass/_nav.scss */
+.navigation .navbar-default .navbar-nav > .open > a, .navigation .navbar-default .navbar-nav > .open > a:hover, .navigation .navbar-default .navbar-nav > .open > a:focus {
   background-color: #f0535f;
   color: white;
 }
-
-/* line 55, ../sass/_nav.scss */
-.navbar-default .navbar-nav > li:hover {
+/* line 56, ../sass/_nav.scss */
+.navigation .navbar-default .navbar-nav > li:hover {
   background-color: #08ad9d;
 }
-
-/* line 59, ../sass/_nav.scss */
-.navbar-default .navbar-nav > li.active {
+/* line 60, ../sass/_nav.scss */
+.navigation .navbar-default .navbar-nav > li.active {
   background-color: #08ad9d;
 }
-
-/* line 63, ../sass/_nav.scss */
-.navlink {
-  width: 127px;
-  height: 51px;
+/* line 64, ../sass/_nav.scss */
+.navigation .navlink {
+  width: 150px;
+  height: 50px;
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   text-align: center;
+  display: table;
 }
-
-/* line 76, ../sass/_nav.scss */
-#tagalogo {
+/* line 77, ../sass/_nav.scss */
+.navigation #tagalogo {
   width: 32px;
   height: 60px;
   margin: auto;

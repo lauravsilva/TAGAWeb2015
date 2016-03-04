@@ -20,18 +20,19 @@ include "header.php";
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <img src="..." alt="...">
+                            <img src="assets/carousel1.jpg" alt="">
+                            <!--
                             <div class="carousel-caption">
-                                ...
+                            insert caption 1
                             </div>
+                            -->
                         </div>
                         <div class="item">
-                            <img src="..." alt="...">
-                            <div class="carousel-caption">
-                                ...
-                            </div>
+                            <img src="assets/carousel2.png" alt="">
                         </div>
-                        ...
+                        <div class="item">
+                            <img src="assets/carousel3.jpg" alt="">
+                        </div>
                     </div>
 
                     <!-- Controls -->

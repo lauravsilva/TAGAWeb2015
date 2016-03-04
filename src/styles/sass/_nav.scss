@@ -1,80 +1,82 @@
-//body {
-//  min-height: 2000px;
-//} 
+.navigation{
 
-div.navlink > a, li.navlink > a {
-    color:white;
-}
+    div.navlink > a, li.navlink > a, #navdropdown a {
+        color:white;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+    }
 
-li.navlink > a:hover {
-    background-color: $teal;
-    color:white;
-}
+    li.navlink > a:hover {
+        background-color: $teal;
+        color:white;
+    }
 
-.dropdown-menu {
-    background-color: $pink;
-    color: white;
-}
+    .dropdown-menu {
+        background-color: $pink;
+        color: white;
+    }
 
-.dropdown-menu > li > a {
-    color: white;
-}
+    .dropdown-menu > li > a {
+        color: white;
+    }
 
-.dropdown-menu > li > a:hover {
-    background-color:$teal;
-}
+    .dropdown-menu > li > a:hover {
+        background-color:$teal;
+    }
 
-.nav {
-    height: 80px;
-    margin: 0 auto;
-}
+    .nav {
+        height: 80px;
+        margin: 0 auto;
+    }
 
-.navbar {
-    background-color: $pink;
-    width:auto;
-    margin:auto;
-    border:none;
-}
+    .navbar {
+        background-color: $pink;
+        width:auto;
+        margin:auto;
+        border:none;
+    }
 
-.navbar-brand {
-    max-width: 254px;
-    margin:auto;
-    padding-left: 30px;
-    height: 80px;
-}
+    .navbar-brand {
+        max-width: 254px;
+        margin:auto;
+        padding-left: 30px;
+        height: 80px;
+    }
 
-.navbar-default .navbar-nav > li > a {
-    color: white;
-}
+    .navbar-default .navbar-nav > li > a {
+        color: white;
+    }
 
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    background-color: $pink;
-    color: white;
-}
+    .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+        background-color: $pink;
+        color: white;
+    }
 
-.navbar-default .navbar-nav > li:hover {
-    background-color:$teal;
-}
+    .navbar-default .navbar-nav > li:hover {
+        background-color:$teal;
+    }
 
-.navbar-default .navbar-nav > li.active {
-    background-color: $teal;
-}
+    .navbar-default .navbar-nav > li.active {
+        background-color: $teal;
+    }
 
-.navlink {
-    width: 127px;
-    height: 51px;
-    font-family: "Open Sans", sans-serif;
-    font-size: 18px;
-    text-align:center;
-//    margin-top:29px;
-}
+    .navlink {
+        width: 150px;
+        height: 50px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 18px;
+        text-align:center;
+        display: table;
+    }
 
-#navdropdown {
-//    margin-top: -29px;
-}
+    #navdropdown {
+        //    margin-top: -29px;
+    }
 
-#tagalogo {
-    width:32px;
-    height:60px;
-    margin:auto;
+    #tagalogo {
+        width:32px;
+        height:60px;
+        margin:auto;
+    }
 }
