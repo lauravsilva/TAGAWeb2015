@@ -1,0 +1,481 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>RIT TAGA Book Archive</title>
+<link href="../../../TAGAWeb2015-master/src/styles/stylesheets/styles.css" rel="stylesheet" type="text/css">
+<style>
+body {
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    header {
+        height: 105px;
+        width: 100%;
+        background-color: #ef545f;
+    }
+    
+
+   h1 {
+    padding: 0;
+    width: 100%;
+    height: 65px;
+    line-height: 67px;
+    font-size: 35px;
+    font-family: $font-family-sans-serif;
+    color: #ffffff; /* $white */
+    background-color: #2b3f56; /* $teal */
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    }
+
+/*Blue*/    
+h2 {
+    padding-top: 8px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: $font-family-sans-serif;
+    color: #08ad9d; /* $teal */
+    border-top: 7px solid;
+    border-top-color: #08ad9d; /* $teal */
+    width: 100%;
+    }
+
+/*Pink*/    
+h3 {
+    padding-top: 8px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: right;
+    text-transform: uppercase;
+    font-family: $font-family-sans-serif;
+    color: #f0535f; /* $pink */
+    border-top: 7px solid;
+    border-top-color: #f0535f; /* $pink */
+    width: 100%;
+    }
+
+h4 {
+    padding: 0;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: $font-family-sans-serif;
+    color: #08ad9d; /* $teal */
+    font-weight: 500;
+    margin-top: 50px;
+    }  
+
+
+p {
+    color: #000000; /* $black */
+    font-family: "Garamond"; /* $font-family-serif */
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 20px;
+    
+}
+
+a, a:active, a:visited {
+    color: #08ad9d; /* $teal */
+    font-family: "Garamond"; /* $font-family-serif */
+    font-weight: 400;
+    -webkit-transition: color .1s ease-in;
+    -moz-transition: color .1s ease-in;
+    }
+
+a:hover {
+    color: #f0535f; /* $pink */
+    text-decoration: none;
+    -webkit-transition: color .1s ease-out;
+    -moz-transition: color .1s ease-out;
+    }
+
+#content{
+        width: 940px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+.hero {
+        margin-top: 50px;
+        width: 100%;
+        height: 659px;
+        position: relative;
+    }
+
+    .heromain {	
+        /*width: 469px;*/
+        height: 540px;
+        position: absolute;
+        left: 0px;
+        overflow: hidden;
+
+    }
+
+    .herosub {
+       /* width: 469px;*/
+        height: 360px;
+        position: absolute;
+        right: 0;
+        overflow: hidden;
+    }
+    .herosub2 {
+        /*width: 238px;*/
+        height: 180px;
+        position: absolute;
+        top: 359px;
+        overflow: hidden;
+    }
+
+    .herosub3 {
+       /* width: 238px;*/
+        height: 180px;
+        position: absolute;
+        top: 359px;
+        overflow: hidden;
+
+    }
+
+    .herotitle {
+        /*width: 936px;*/
+        height: 120px;
+        position: absolute;
+        top: 538px;
+        background-color: rgba(253, 234, 210, 1);
+    }
+
+    p#titlebook {
+        font-family: "open sans";
+        font-size: 36px;
+        font-weight: 400;
+        color: #000000;
+        position: relative;
+        top: 25px;
+        padding-left: 50px;
+    }    
+
+    .nopadding {
+        padding: 0;
+    }
+    
+    .nomargin {
+        margin: 0;
+    }
+    
+    .about {
+        width: 100%;
+        padding-top: 20px;
+        height: auto;
+        position: relative;
+    }
+
+    .membersmodule {
+        width: 100%;
+        height: auto;
+        position: relative; 
+    }   
+
+    .members1 {	
+        height: 125px;
+        top: 0px;
+    }
+
+    .members2 {	
+        height: 125px;
+        top: 0px;
+    }
+
+    .members3 {	
+        height: 125px;
+        top: 0px;
+    } 
+
+    .archivemodule {
+        margin-top: 95px;
+        position: relative;
+    }   
+
+    .row {
+        padding: 0;
+        margin: 0;
+    }
+
+    .col-md-3 {
+        padding: 0;
+    }
+
+    .archivehoverpink{
+        width: 235px;
+        height: 166px;
+        overflow: hidden;
+
+    }    
+    
+    .archivehoverpink:hover {
+        background-color: rgba(239, 84, 95, .75);
+        opacity:1;
+        -webkit-transition: opacity .25s ease;
+        -moz-transition: opacity .25s ease;
+
+    }
+
+    .archivehoverturq{
+        width: 235px;
+        height: 166px;
+        overflow: hidden;
+
+    }
+    
+    .archivehoverturq:hover {
+        /*width: 187.2px;*/
+        background-color: rgba(12, 172, 156, .75);
+        opacity:1;
+        -webkit-transition: opacity .25s ease;
+        -moz-transition: opacity .25s ease;
+
+    }
+    
+    
+    img.portrait {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+    img.landscape {
+    height: 100%;
+    width: auto;
+    overflow: hidden;
+}
+    
+    span.archiveoverlayturq {
+        position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba(12, 172, 156, .75);
+            display: table;
+            width: 235px;
+            height: 166px;
+            opacity: 0;
+            -webkit-transition: opacity 500ms;
+            -moz-transition: opacity 500ms;
+            -o-transition: opacity 500ms;
+            transition: opacity 500ms;
+    }
+    
+    span.archiveoverlaypink {
+        position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba(239, 84, 95, .75);
+            display: table;
+            width: 235px;
+            height: 166px;  
+            opacity: 0;
+            -webkit-transition: opacity 500ms;
+            -moz-transition: opacity 500ms;
+            -o-transition: opacity 500ms;
+            transition: opacity 500ms;
+    }
+    
+    span.archiveoverlayturq:hover {
+        opacity:1;
+    }
+    
+    span.archiveoverlaypink:hover {
+        opacity:1;
+    }
+
+    .archiveyear {
+        padding-left: 85px;
+        padding-top: 115px;
+        color: #ffffff;
+        font-family: "Open Sans";
+        font-size: 22px;
+    }
+  
+</style>
+</head>
+
+<body>
+<header>
+</header>
+<div id="content">
+	<div class="hero">
+        <div class="row">
+        <div class="col-md-5 heromain nopadding"><img class="landscape" style="padding-right: 30px;" src="assets/archive/2013-14/Print_13_1400004-crop.jpg">
+</div>
+        <div class="col-md-7 herosub nopadding"><img class="portrait" src="assets/archive/2013-14/Print_13_1400003.jpg">
+</div></a>
+    </div>
+    <div class="row">
+        <div class="col-md-3 col-md-offset-5 herosub2 nopadding"><img class="landscape" src="assets/archive/2013-14/Print_13_1400005.jpg">
+</div>
+        <div class="col-md-4 col-md-offset-8 herosub3 nopadding"><img class="portrait" src="assets/archive/2013-14/Print_13_1400001.jpg">
+</div>
+    </div>
+    <div class="row">
+        <div class="herotitle col-md-12"><p id="titlebook">RIT TAGA Publication 2014 - 2015</p></div>
+        
+        </div>
+        
+	</div>
+
+    <div class="about">
+    <div class="row">
+        <div class="col-md-12 nopadding">
+       <h4>About This Publication</h4> 
+            <p>The distinguishing visual factor for our publication is an “Art Deco” and “Great Gatsby” theme. The RIT Chapter takes pride in the hard work put forth to bring a traditional, yet modern look and feel, to our publication. The printed book is bound with leather and has a gold de-bossed design. Once you open the cover, our very own RIT emblem welcomes you. We incorporated variable data into our printed book, creating personalized editions for specific TAGA members and the individuals in industry and at RIT who helped make this publication possible. To complement our print publication, we created a cutting edge digital publication in Adobe Digital Publishing Suite.</p>
+        </div>
+    </div>
+</div>
+    <div class="membersmodule">
+    <div class="row">
+    <div class="col-md-12 nopadding">
+    <h4>Members Involved In This Publication</h4> </div>
+    <div class="col-md-4 members1 nopadding">
+    <p>Brian Siegfried<Br>
+        Ashley Winckel<br>
+        Timothy Orbanac<Br>
+        Cristina Giacobbe<Br></p>
+    
+    </div>
+    
+    <div class="col-md-4 members2 nopadding">
+        <p> Jacob Walsh<Br>
+            Emily Doolittle<Br>
+            James F. Hanlon IV<br>
+            Katelyn Fletcher<Br></p>
+    
+    </div>
+    
+    <div class="col-md-4 members3 nopadding">
+        <p>Vincent Perez<Br>
+            Katie Verrant<Br>
+            </p>
+    
+    </div>  
+</div>
+</div>
+            <br><br>
+    <div class="col-md-12 nopadding">
+    <a href="../src/archive_main.html">Back To All Books</a>
+        </div>
+
+    <div class="archivemodule">
+           <h2>Archive</h2>
+                
+        <div class="row">
+        <div class="col-md-3">
+                    <div class="archivehoverturq">
+                        <img class="archiveimg landscape" src="assets/archive/2015-16/Print_16-1.jpg" alt="" />
+                        <a href="./archive_detailpage.html"><span class="archiveoverlayturq">
+                            <div class="archiveyear">2015 - 2016</div>
+                        </span></a>
+                    </div>
+                </div>
+        <div class="col-md-3">
+                    <div class="archivehoverpink">
+                        <img class="archiveimg portrait" src="assets/archive/2014-15/Print_14_1500004.jpg" alt="" />
+                        <a href="./archive_detailpage-2014-2015.html"><span class="archiveoverlaypink">
+                            <div class="archiveyear">2014 - 2015</div>
+                            </span></a>
+                    </div>
+                </div>
+            
+        <div class="col-md-3">
+                    <div class="archivehoverturq">
+                        <img class="archiveimg landscape" src="assets/archive/2013-14/Print_13_1400003.jpg" alt="" />
+                        <a href="./archive_detailpage-2013-2014.html"><span class="archiveoverlayturq">
+                            <div class="archiveyear">2013 - 2014</div>
+                            </span></a>
+                    </div>
+                </div>
+
+        <div class="col-md-3">
+                    <div class="archivehoverpink">
+                        <img class="archiveimg landscape" src="assets/archive/2010-11.jpg" alt="" />
+                        <span class="archiveoverlaypink">
+                            <div class="archiveyear">2010 - 2011</div>
+                        </span>
+                    </div>
+                </div>
+    </div>
+        
+            <div class="row">
+        
+                <div class="col-md-3">
+                    <div class="archivehoverpink">
+                        <img class="archiveimg landscape" src="assets/archive/2007-08.jpg" alt="" />
+                        <span class="archiveoverlaypink">
+                            <div class="archiveyear">2007 - 2008</div>
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="col-md-3">
+                    <div class="archivehoverturq">
+                        <img class="archiveimg landscape" src="assets/archive/2006-07.jpg" alt="" />
+                        <span class="archiveoverlayturq">
+                            <div class="archiveyear">2006 - 2007</div>
+                        </span>
+                    </div>
+                </div>
+                
+            <div class="col-md-3">
+                    <div class="archivehoverpink">
+                        <img class="archiveimg portrait" src="assets/archive/2005-06.jpg" alt="" />
+                        <span class="archiveoverlaypink">
+                            <div class="archiveyear">2005 - 2006</div>
+                        </span>
+                    </div>
+                </div>
+                
+            <div class="col-md-3">
+                    <div class="archivehoverturq">
+                        <img class="archiveimg portrait" src="assets/archive/2004-05.jpg" alt="" />
+                        <span class="archiveoverlayturq">
+                            <div class="archiveyear">2004 - 2005</div>
+                        </span>
+                    </div>
+                </div>
+                            
+        </div>
+
+        <div class="row">
+            
+            <div class="col-md-3">
+                    <div class="archivehoverturq">
+                        <img class="archiveimg landscape" src="assets/archive/2003-04.jpg" alt="" />
+                        <span class="archiveoverlayturq">
+                            <div class="archiveyear">2003 - 2004</div>
+                        </span>
+                    </div>
+                </div>
+            
+         <div class="col-md-3">
+                    <div class="archivehoverpink">
+                        <img class="archiveimg portrait" src="assets/archive/2002-03.jpg" alt="" />
+                        <span class="archiveoverlaypink">
+                            <div class="archiveyear">2002 - 2003</div>
+                        </span>
+                    </div>
+                </div>   
+                            
+        </div>
+</div>
+    
+</div>
+
+</body>
+</html>
+
