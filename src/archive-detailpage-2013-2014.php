@@ -1,26 +1,26 @@
 <?php
-$title = "TAGA | Book Archive Detail";
-$active_page = "archive-detail";
+$title = "TAGA | Book Archive 2013-2014";
+$active_page = "archive";
 include "header.php";
 ?>
 
 <body>
-    <div class="container archive-detail">
+    <div class="container archive-detail-20132014">
         <div class="hero">
             <div class="row">
-                <div class="col-md-5 heromain nopadding"><img class="landscape" src="assets/archive/2015-16/Cover.jpg">
+                <div class="col-md-5 heromain nopadding"><img class="landscape" style="padding-right: 30px;" src="assets/archive/2013-14/Print_13_1400004-crop.jpg">
                 </div>
-                <div class="col-md-7 herosub nopadding"><img class="portrait" src="assets/archive/2015-16/Print_16-11.jpg">
+                <div class="col-md-7 herosub nopadding"><img class="portrait" src="assets/archive/2013-14/Print_13_1400003.jpg">
                 </div></a>
         </div>
         <div class="row">
-            <div class="col-md-3 col-md-offset-5 herosub2 nopadding"><img class="landscape" src="assets/archive/2015-16/Print_16-8.jpg">
+            <div class="col-md-3 col-md-offset-5 herosub2 nopadding"><img class="landscape" src="assets/archive/2013-14/Print_13_1400005.jpg">
             </div>
-            <div class="col-md-4 col-md-offset-8 herosub3 nopadding"><img class="portrait" src="assets/archive/2015-16/Print_16-20-Crop.jpg">
+            <div class="col-md-4 col-md-offset-8 herosub3 nopadding"><img class="portrait" src="assets/archive/2013-14/Print_13_1400001.jpg">
             </div>
         </div>
         <div class="row">
-            <div class="herotitle col-md-12"><p id="titlebook">RIT TAGA Publication 2015 - 2016</p></div>
+            <div class="herotitle col-md-12"><p id="titlebook">RIT TAGA Publication 2014 - 2015</p></div>
 
         </div>
 
@@ -30,72 +30,40 @@ include "header.php";
         <div class="row">
             <div class="col-md-12 nopadding">
                 <h4>About This Publication</h4> 
-                <p>This year’s modern fine arts aesthetic is influenced by Flat Design, Art Deco and Popular Art, displayed in the retro art movement referred to as Memphis Milano Postmodern Design. The technical nature of TAGA and its authors forms a relationship with Memphis Milano Postmodern Design when you consider the origin of this movement. This Italian art movement was created by a group led by Italian architect Ettore Sottsass as a style of architecture and furniture design in the 1980s. The group created the style through the practice of inviting both professional and undergraduate level architects, writers and designers to collaborate together. The style contains elements of asymmetrical shapes, gridlocked colors and arbitrary angles, resulting in a bizarre, highly structured design with a tense, flamboyant theme using triads of contrasting colors. Its application and theory are applicable to the technical studies of art that we, the TAGA group, practice today. Much like the Memphis group, we are volunteer scholars who create work that communicates with our industry’s professionals.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12 nopadding">
-                <h4>Digital Publication</h4> <br>
-                <center><iframe src="https://player.vimeo.com/video/153531477" width="750" height="421.5" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></center>
+                <p>The distinguishing visual factor for our publication is an “Art Deco” and “Great Gatsby” theme. The RIT Chapter takes pride in the hard work put forth to bring a traditional, yet modern look and feel, to our publication. The printed book is bound with leather and has a gold de-bossed design. Once you open the cover, our very own RIT emblem welcomes you. We incorporated variable data into our printed book, creating personalized editions for specific TAGA members and the individuals in industry and at RIT who helped make this publication possible. To complement our print publication, we created a cutting edge digital publication in Adobe Digital Publishing Suite.</p>
             </div>
         </div>
     </div>
     <div class="membersmodule">
         <div class="row">
             <div class="col-md-12 nopadding">
-                <h4>Members Involved In This Publication</h4>
-            </div>
-            <div class="col-md-3 members nopadding">
-                <p>Alissa Roy<br/>
-                    Mitchell Morgan<br/>
-                    Olivia Konys<br/>
-                    Mandi Moon<br/>
-                    Hannah Mulford<br/>
-                    Abigail Austin<br/>
-                    Arianna Wagar<br/>
-                </p>
+                <h4>Members Involved In This Publication</h4> </div>
+            <div class="col-md-4 members1 nopadding">
+                <p>Brian Siegfried<br/>
+                    Ashley Winckel<br/>
+                    Timothy Orbanac<br/>
+                    Cristina Giacobbe<br/></p>
+
             </div>
 
-            <div class="col-md-3 members nopadding">
-                <p>Voltaire Hardy<br/>
-                    Jolia Thadal<br/>
-                    Meghan Olexa<br/>
-                    Christina Thorpe<br/>
-                    Jolia Thadal<br/>
-                    Laura Silva<br/>
-                    Kevin Geary<br/>
-                </p>
-            </div>
-
-            <div class="col-md-3 members nopadding">
-                <p>Brian Cusak<br/>
-                    Emily Shriver<br/>
-                    Emma Strongin<br/>
-                    Cynthia Chu<br/>
-                    Monica Gustin<br/>
-                    Mikayla Stricklett<br/>
-                    Dennae Makel
-                </p>
-            </div>
-
-            <div class="col-md-3 members nopadding">
-                <p>
-                    Sumin Oh<br/>
-                    Tatiana Morales<br/>
-                    Jason Schultz<br/>
-                    Eliza Tehan<br/>
-                    Kendra Murphy<br/>
-                    Colin Turner<br/>
-                    Melanie Kim
+            <div class="col-md-4 members2 nopadding">
+                <p> Jacob Walsh<br/>
+                    Emily Doolittle<br/>
+                    James F. Hanlon IV<br/>
+                    Katelyn Fletcher<br/>
                 </p>
 
             </div>
 
+            <div class="col-md-4 members3 nopadding">
+                <p>Vincent Perez<br/>
+                    Katie Verrant<br/>
+                </p>
+
+            </div>  
         </div>
     </div>
-
-    <br/><br/>
-
+    <br><br>
     <div class="col-md-12 nopadding">
         <a href="portfolio.php">Back To All Books</a>
     </div>
@@ -124,7 +92,7 @@ include "header.php";
             <div class="col-md-3">
                 <div class="archivehoverturq">
                     <img class="archiveimg landscape" src="assets/archive/2013-14/Print_13_1400003.jpg" alt="" />
-                    <a href="archive-detailpage-2013-2014.php"><span class="archiveoverlayturq">
+                    <a href="#"><span class="archiveoverlayturq">
                         <div class="archiveyear">2013 - 2014</div>
                         </span></a>
                 </div>
@@ -199,9 +167,12 @@ include "header.php";
                     </span>
                 </div>
             </div>   
+
         </div>
     </div>
+
     </div>
+
 </body>
 
 <?php include('footer.php'); ?>

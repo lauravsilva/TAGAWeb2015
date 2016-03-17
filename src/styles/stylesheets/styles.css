@@ -9181,486 +9181,831 @@ a .social-icons {
   margin: auto;
 }
 
-/* line 3, ../sass/_archive.scss */
-.archive body {
+/* line 2, ../sass/_portfolio.scss */
+.portfolio .hero {
   width: 100%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* line 10, ../sass/_archive.scss */
-.archive header {
-  height: 105px;
-  width: 100%;
-  background-color: #ef545f;
-}
-/* line 20, ../sass/_archive.scss */
-.archive h2 {
-  margin-top: 50px;
-  padding: 0;
-}
-/* line 24, ../sass/_archive.scss */
-.archive h3 {
-  margin-top: 50px;
-  padding: 0;
-}
-/* line 30, ../sass/_archive.scss */
-.archive .hero {
-  margin-top: 50px;
-  height: 539px;
+  height: 540px;
   position: relative;
+  margin-bottom: 50px;
 }
-/* line 37, ../sass/_archive.scss */
-.archive .heromain {
-  height: 539px;
+/* line 9, ../sass/_portfolio.scss */
+.portfolio .heromain {
+  /*width: 469px;*/
+  height: 540px;
   position: absolute;
   left: 0px;
-  border-width: 1px;
-  border-color: #000001;
-  border-style: solid;
-  background-color: #ffffff;
+  overflow: hidden;
 }
-/* line 47, ../sass/_archive.scss */
-.archive .herosub {
+/* line 16, ../sass/_portfolio.scss */
+.portfolio .herosub {
+  /* width: 469px;*/
   height: 360px;
   position: absolute;
   right: 0;
-  border-width: 1px;
-  border-color: #000001;
-  border-style: solid;
-  background-color: #ffffff;
+  overflow: hidden;
 }
-/* line 57, ../sass/_archive.scss */
-.archive .herosub2 {
-  width: 238px;
+/* line 23, ../sass/_portfolio.scss */
+.portfolio .herosub2 {
+  /*width: 238px;*/
   height: 180px;
   position: absolute;
-  left: 467px;
-  top: 359px;
-  border-width: 1px;
-  border-color: #000001;
-  border-style: solid;
-  background-color: #ffffff;
+  top: 360px;
+  overflow: hidden;
 }
-/* line 69, ../sass/_archive.scss */
-.archive .linkthisyear {
-  width: 238px;
+/* line 31, ../sass/_portfolio.scss */
+.portfolio .herosub3 {
   height: 180px;
   position: absolute;
-  right: 0px;
-  top: 359px;
-  background-color: #0cac9c;
+  top: 360px;
+  overflow: hidden;
+  background-color: #08ad9d;
 }
-/* line 78, ../sass/_archive.scss */
-.archive .pasttwoyears {
-  width: 936px;
-  height: 269px;
-  position: relative;
-}
-/* line 84, ../sass/_archive.scss */
-.archive .year1415 {
-  width: 470px;
-  height: 208px;
+/* line 39, ../sass/_portfolio.scss */
+.portfolio span.linkthisyear {
+  width: 100%;
+  height: 180px;
   position: absolute;
-  left: 0px;
   top: 0px;
-  border-width: 1px;
-  border-color: #000001;
-  border-style: solid;
-  background-color: #ffffff;
-}
-/* line 97, ../sass/_archive.scss */
-.archive .base1415 {
-  width: 470px;
-  height: 61px;
-  position: absolute;
-  left: 0px;
-  top: 208px;
-  background-color: #ef545f;
-}
-/* line 106, ../sass/_archive.scss */
-.archive .year1314 {
-  width: 470px;
-  height: 208px;
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  border-width: 1px;
-  border-color: #000001;
-  border-style: solid;
-  background-color: #ffffff;
-}
-/* line 119, ../sass/_archive.scss */
-.archive .base1314 {
-  width: 470px;
-  height: 61px;
-  position: absolute;
-  right: 0px;
-  top: 208px;
-  background-color: #0cac9c;
-}
-/* line 128, ../sass/_archive.scss */
-.archive .archivemodule {
-  width: 936px;
-  height: 332px;
-  position: relative;
-}
-/* line 134, ../sass/_archive.scss */
-.archive .archive {
-  width: 187.2px;
-  height: 166px;
-  position: relative;
-  float: left;
-  border-width: 1px;
-  border-color: #000001;
-  border-style: solid;
-}
-/* line 144, ../sass/_archive.scss */
-.archive .archivehoverpink {
-  width: 187.2px;
-  height: 166px;
-  background-color: rgba(239, 84, 95, 0.75);
+  display: table;
   opacity: 0;
-  -webkit-transition: opacity .25s ease;
-  -moz-transition: opacity .25s ease;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
 }
-/* line 153, ../sass/_archive.scss */
-.archive .archivehoverturq {
-  width: 187.2px;
-  height: 166px;
-  background-color: rgba(12, 172, 156, 0.75);
-  opacity: 0;
-  -webkit-transition: opacity .25s ease;
-  -moz-transition: opacity .25s ease;
-}
-/* line 162, ../sass/_archive.scss */
-.archive .archive:hover .archivehoverpink {
+/* line 52, ../sass/_portfolio.scss */
+.portfolio span.linkthisyear:hover {
   opacity: 1;
+  background-color: #f0535f;
+  /*$pink*/
 }
-/* line 166, ../sass/_archive.scss */
-.archive .archive:hover .archivehoverturq {
-  opacity: 1;
-}
-/* line 170, ../sass/_archive.scss */
-.archive a.archivetext {
-  padding-left: 45px;
-  line-height: 270px;
+/* line 57, ../sass/_portfolio.scss */
+.portfolio .thisyearsbook {
   color: #ffffff;
+  text-align: center;
   font-family: "Open Sans";
-  font-size: 22px;
+  font-size: 32px;
+  margin-top: 48px;
+  line-height: 75px;
+  font-weight: 400;
 }
-/* line 178, ../sass/_archive.scss */
-.archive a.archivetext:active, .archive a.archivetext:visited, .archive a.archivetext:hover {
-  padding-left: 45px;
-  color: #ffffff;
-  font-family: "Open Sans";
-  font-size: 22px;
+/* line 67, ../sass/_portfolio.scss */
+.portfolio .thisyearsbooks:hover {
+  color: #f0fffd;
   text-decoration: none;
 }
-/* line 186, ../sass/_archive.scss */
-.archive #text {
-  position: absolute;
-  top: 45px;
-  width: 235px;
+/* line 73, ../sass/_portfolio.scss */
+.portfolio .pasttwoyears {
+  width: 940px;
+  height: 361px;
+  position: relative;
 }
-/* line 192, ../sass/_archive.scss */
-.archive .bookspaddingleft {
+/* line 79, ../sass/_portfolio.scss */
+.portfolio .nopadding {
+  padding: 0;
+}
+/* line 83, ../sass/_portfolio.scss */
+.portfolio .nomargin {
+  margin: 0;
+}
+/* line 87, ../sass/_portfolio.scss */
+.portfolio .year1415 {
+  width: 470px;
+  height: 300px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+/* line 97, ../sass/_portfolio.scss */
+.portfolio .base1415 {
+  width: 470px;
+  height: 61px;
+  position: absolute;
+  left: 0px;
+  top: 300px;
+  background-color: #ef545f;
+}
+/* line 106, ../sass/_portfolio.scss */
+.portfolio .year1314 {
+  width: 470px;
+  height: 300px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+/* line 116, ../sass/_portfolio.scss */
+.portfolio .base1314 {
+  width: 470px;
+  height: 61px;
+  position: absolute;
+  right: 0px;
+  top: 300px;
+  background-color: #0cac9c;
+  -webkit-transition: background-color 500ms;
+  -moz-transition: background-color 500ms;
+  -o-transition: background-color 500ms;
+  transition: background-color 500ms;
+}
+/* line 130, ../sass/_portfolio.scss */
+.portfolio span.bookspaddingleft {
   padding-left: 20px;
   z-index: 1;
   color: #ffffff;
   font-family: "Open Sans";
-  font-size: 32px;
+  font-size: 28px;
   line-height: 55px;
+  font-weight: 400;
 }
-/* line 201, ../sass/_archive.scss */
-.archive a.bookspaddingleft:visited, .archive a.bookspaddingleft:active, .archive a.bookspaddingleft:hover {
+/* line 139, ../sass/_portfolio.scss */
+.portfolio .base1314:hover {
+  background-color: #08ad9d;
+}
+/* line 143, ../sass/_portfolio.scss */
+.portfolio a.bookspaddingleft:visited, .portfolio a.bookspaddingleft:active, .portfolio a.bookspaddingleft:hover {
   color: #f0fffd;
   text-decoration: none;
+  font-weight: 400;
 }
-/* line 206, ../sass/_archive.scss */
-.archive a.books {
-  z-index: 1;
+/* line 149, ../sass/_portfolio.scss */
+.portfolio .archivemodule {
+  margin-top: 95px;
+  position: relative;
+}
+/* line 154, ../sass/_portfolio.scss */
+.portfolio .row {
+  padding: 0;
+  margin: 0;
+}
+/* line 159, ../sass/_portfolio.scss */
+.portfolio .col-md-3 {
+  padding: 0;
+}
+/* line 163, ../sass/_portfolio.scss */
+.portfolio .archivehoverpink {
+  width: 235px;
+  height: 166px;
+  overflow: hidden;
+}
+/* line 170, ../sass/_portfolio.scss */
+.portfolio .archivehoverpink:hover {
+  background-color: rgba(239, 84, 95, 0.75);
+  opacity: 1;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+}
+/* line 178, ../sass/_portfolio.scss */
+.portfolio .archivehoverturq {
+  width: 235px;
+  height: 166px;
+  overflow: hidden;
+}
+/* line 185, ../sass/_portfolio.scss */
+.portfolio .archivehoverturq:hover {
+  /*width: 187.2px;*/
+  background-color: rgba(12, 172, 156, 0.75);
+  opacity: 1;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+}
+/* line 195, ../sass/_portfolio.scss */
+.portfolio img.portrait {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+/* line 200, ../sass/_portfolio.scss */
+.portfolio img.landscape {
+  height: 100%;
+  width: auto;
+  overflow: hidden;
+}
+/* line 206, ../sass/_portfolio.scss */
+.portfolio span.archiveoverlayturq {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(12, 172, 156, 0.75);
+  display: table;
+  width: 235px;
+  height: 166px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+/* line 221, ../sass/_portfolio.scss */
+.portfolio span.archiveoverlaypink {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(239, 84, 95, 0.75);
+  display: table;
+  width: 235px;
+  height: 166px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+/* line 236, ../sass/_portfolio.scss */
+.portfolio span.archiveoverlayturq:hover {
+  opacity: 1;
+}
+/* line 240, ../sass/_portfolio.scss */
+.portfolio span.archiveoverlaypink:hover {
+  opacity: 1;
+}
+/* line 244, ../sass/_portfolio.scss */
+.portfolio .archiveyear {
+  padding-left: 85px;
+  padding-top: 115px;
   color: #ffffff;
   font-family: "Open Sans";
-  font-size: 32px;
+  font-size: 22px;
 }
-/* line 213, ../sass/_archive.scss */
-.archive a.books:visited, .archive a.books:active, .archive a.books:hover {
-  color: #f0fffd;
-  text-decoration: none;
+/* line 252, ../sass/_portfolio.scss */
+.portfolio #text {
+  position: absolute;
+  top: 45px;
+  width: 235px;
 }
 
 /* line 3, ../sass/_archive-detail.scss */
-.archive-detail body {
-  width: 100%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* line 10, ../sass/_archive-detail.scss */
-.archive-detail header {
-  height: 105px;
-  width: 100%;
-  background-color: #ef545f;
-}
-/* line 16, ../sass/_archive-detail.scss */
-.archive-detail h2 {
-  margin-top: 50px;
-  padding: 0;
-}
-/* line 21, ../sass/_archive-detail.scss */
-.archive-detail h3 {
-  padding: 0;
-}
-/* line 25, ../sass/_archive-detail.scss */
-.archive-detail h4 {
-  font-family: "open sans";
-  font-size: 22px;
-}
-/* line 30, ../sass/_archive-detail.scss */
-.archive-detail p {
-  margin-top: 20px;
-  font-family: "garamond";
-  font-size: 17px;
-  line-height: 25px;
-}
-/* line 37, ../sass/_archive-detail.scss */
-.archive-detail #content {
-  width: 936px;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* line 43, ../sass/_archive-detail.scss */
 .archive-detail .hero {
   margin-top: 50px;
-  width: 936px;
+  width: 100%;
   height: 659px;
   position: relative;
 }
-/* line 50, ../sass/_archive-detail.scss */
+/* line 10, ../sass/_archive-detail.scss */
 .archive-detail .heromain {
-  width: 469px;
-  height: 539px;
+  /*width: 469px;*/
+  height: 540px;
   position: absolute;
   left: 0px;
-  border-width: 1px;
-  border-color: #000001;
-  border-style: solid;
-  background-color: #ffffff;
+  overflow: hidden;
 }
-/* line 60, ../sass/_archive-detail.scss */
+/* line 19, ../sass/_archive-detail.scss */
 .archive-detail .herosub {
-  width: 469px;
-  height: 360px;
+  /* width: 469px;*/
+  height: 330px;
   position: absolute;
   right: 0;
-  border-width: 1px;
-  border-color: #000001;
-  border-style: solid;
-  background-color: #ffffff;
+  overflow: hidden;
 }
-/* line 70, ../sass/_archive-detail.scss */
+/* line 26, ../sass/_archive-detail.scss */
 .archive-detail .herosub2 {
-  width: 238px;
-  height: 180px;
+  /*width: 238px;*/
+  height: 210px;
   position: absolute;
-  left: 467px;
-  top: 359px;
-  border-width: 1px;
-  border-color: #000001;
-  border-style: solid;
-  background-color: #ffffff;
+  top: 329px;
+  overflow: hidden;
 }
-/* line 82, ../sass/_archive-detail.scss */
+/* line 34, ../sass/_archive-detail.scss */
 .archive-detail .herosub3 {
-  width: 238px;
-  height: 180px;
+  /* width: 238px;*/
+  height: 210px;
   position: absolute;
-  right: 0px;
-  top: 359px;
-  border-width: 1px;
-  border-color: #000001;
-  border-style: solid;
-  background-color: #ffffff;
+  top: 329px;
+  overflow: hidden;
 }
-/* line 94, ../sass/_archive-detail.scss */
+/* line 43, ../sass/_archive-detail.scss */
 .archive-detail .herotitle {
-  width: 936px;
+  /*width: 936px;*/
   height: 120px;
   position: absolute;
-  right: 0px;
   top: 538px;
-  border-width: 1px;
-  border-color: #000001;
-  border-style: solid;
-  background-color: #6ba0c2;
+  background-color: #ef545f;
 }
-/* line 107, ../sass/_archive-detail.scss */
+/* line 51, ../sass/_archive-detail.scss */
 .archive-detail p#titlebook {
   font-family: "open sans";
   font-size: 36px;
+  font-weight: 400;
   color: #ffffff;
   position: relative;
   top: 25px;
   padding-left: 50px;
 }
-/* line 116, ../sass/_archive-detail.scss */
+/* line 61, ../sass/_archive-detail.scss */
+.archive-detail .nopadding {
+  padding: 0;
+}
+/* line 65, ../sass/_archive-detail.scss */
+.archive-detail .nomargin {
+  margin: 0;
+}
+/* line 69, ../sass/_archive-detail.scss */
 .archive-detail .about {
-  width: 936px;
-  height: 200px;
-  margin-top: 50px;
+  width: 100%;
+  padding-top: 20px;
+  height: auto;
   position: relative;
+}
+/* line 76, ../sass/_archive-detail.scss */
+.archive-detail .membersmodule {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+/* line 82, ../sass/_archive-detail.scss */
+.archive-detail .members {
+  height: auto;
+  top: 0px;
+}
+/* line 87, ../sass/_archive-detail.scss */
+.archive-detail .archivemodule {
+  margin-top: 95px;
+  position: relative;
+}
+/* line 92, ../sass/_archive-detail.scss */
+.archive-detail .row {
+  padding: 0;
+  margin: 0;
+}
+/* line 97, ../sass/_archive-detail.scss */
+.archive-detail .col-md-3 {
+  padding: 0;
+}
+/* line 101, ../sass/_archive-detail.scss */
+.archive-detail .archivehoverpink {
+  width: 235px;
+  height: 166px;
+  overflow: hidden;
+}
+/* line 108, ../sass/_archive-detail.scss */
+.archive-detail .archivehoverpink:hover {
+  background-color: rgba(239, 84, 95, 0.75);
+  opacity: 1;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+}
+/* line 116, ../sass/_archive-detail.scss */
+.archive-detail .archivehoverturq {
+  width: 235px;
+  height: 166px;
+  overflow: hidden;
 }
 /* line 123, ../sass/_archive-detail.scss */
-.archive-detail .membersmodule {
-  width: 936px;
-  height: 125px;
-  position: relative;
+.archive-detail .archivehoverturq:hover {
+  /*width: 187.2px;*/
+  background-color: rgba(12, 172, 156, 0.75);
+  opacity: 1;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
 }
-/* line 129, ../sass/_archive-detail.scss */
-.archive-detail .leftside {
-  width: 470px;
-  height: 200px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  padding-right: 50px;
+/* line 133, ../sass/_archive-detail.scss */
+.archive-detail img.portrait {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
 }
 /* line 138, ../sass/_archive-detail.scss */
-.archive-detail .rightside {
-  width: 470px;
-  height: 200px;
+.archive-detail img.landscape {
+  height: 100%;
+  width: auto;
+  overflow: hidden;
+}
+/* line 144, ../sass/_archive-detail.scss */
+.archive-detail span.archiveoverlayturq {
   position: absolute;
-  right: 0px;
-  top: 0px;
-}
-/* line 146, ../sass/_archive-detail.scss */
-.archive-detail .members1 {
-  width: 312.3px;
-  height: 125px;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-}
-/* line 154, ../sass/_archive-detail.scss */
-.archive-detail .members2 {
-  width: 312.3px;
-  height: 125px;
-  position: absolute;
-  top: 0px;
-  left: 312px;
-}
-/* line 162, ../sass/_archive-detail.scss */
-.archive-detail .members3 {
-  width: 312.3px;
-  height: 125px;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-}
-/* line 170, ../sass/_archive-detail.scss */
-.archive-detail a.backtext {
-  color: #ef545f;
-  font-family: "Open Sans";
-  font-size: 17px;
-}
-/* line 176, ../sass/_archive-detail.scss */
-.archive-detail a.backtext:active, .archive-detail a.backtext:visited, .archive-detail a.backtext:hover {
-  color: #ef545f;
-  font-family: "Open Sans";
-  font-size: 17px;
-  text-decoration: none;
-}
-/* line 183, ../sass/_archive-detail.scss */
-.archive-detail .archivemodule {
-  margin-top: 50px;
-  width: 936px;
-  height: 332px;
-  position: relative;
-}
-/* line 190, ../sass/_archive-detail.scss */
-.archive-detail .archive {
-  width: 187.2px;
-  height: 166px;
-  position: relative;
-  float: left;
-  border-width: 1px;
-  border-color: #000001;
-  border-style: solid;
-}
-/* line 200, ../sass/_archive-detail.scss */
-.archive-detail .archivehoverpink {
-  width: 187.2px;
-  height: 166px;
-  background-color: rgba(239, 84, 95, 0.75);
-  opacity: 0;
-  -webkit-transition: opacity .25s ease;
-  -moz-transition: opacity .25s ease;
-}
-/* line 209, ../sass/_archive-detail.scss */
-.archive-detail .archivehoverturq {
-  width: 187.2px;
-  height: 166px;
+  top: 0;
+  left: 0;
   background-color: rgba(12, 172, 156, 0.75);
+  display: table;
+  width: 235px;
+  height: 166px;
   opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+/* line 159, ../sass/_archive-detail.scss */
+.archive-detail span.archiveoverlaypink {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(239, 84, 95, 0.75);
+  display: table;
+  width: 235px;
+  height: 166px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+/* line 174, ../sass/_archive-detail.scss */
+.archive-detail span.archiveoverlayturq:hover {
+  opacity: 1;
+}
+/* line 178, ../sass/_archive-detail.scss */
+.archive-detail span.archiveoverlaypink:hover {
+  opacity: 1;
+}
+/* line 182, ../sass/_archive-detail.scss */
+.archive-detail .archiveyear {
+  padding-left: 85px;
+  padding-top: 115px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 22px;
+  font-weight: 400;
+}
+
+/* line 3, ../sass/_archive-detail-20132014.scss */
+.archive-detail-20132014 .hero {
+  margin-top: 50px;
+  width: 100%;
+  height: 659px;
+  position: relative;
+}
+/* line 10, ../sass/_archive-detail-20132014.scss */
+.archive-detail-20132014 .heromain {
+  /*width: 469px;*/
+  height: 540px;
+  position: absolute;
+  left: 0px;
+  overflow: hidden;
+}
+/* line 19, ../sass/_archive-detail-20132014.scss */
+.archive-detail-20132014 .herosub {
+  /* width: 469px;*/
+  height: 360px;
+  position: absolute;
+  right: 0;
+  overflow: hidden;
+}
+/* line 26, ../sass/_archive-detail-20132014.scss */
+.archive-detail-20132014 .herosub2 {
+  /*width: 238px;*/
+  height: 180px;
+  position: absolute;
+  top: 359px;
+  overflow: hidden;
+}
+/* line 34, ../sass/_archive-detail-20132014.scss */
+.archive-detail-20132014 .herosub3 {
+  /* width: 238px;*/
+  height: 180px;
+  position: absolute;
+  top: 359px;
+  overflow: hidden;
+}
+/* line 43, ../sass/_archive-detail-20132014.scss */
+.archive-detail-20132014 .herotitle {
+  /*width: 936px;*/
+  height: 120px;
+  position: absolute;
+  top: 538px;
+  background-color: #fdead2;
+}
+/* line 51, ../sass/_archive-detail-20132014.scss */
+.archive-detail-20132014 p#titlebook {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  color: #000000;
+  position: relative;
+  top: 25px;
+  padding-left: 50px;
+}
+/* line 61, ../sass/_archive-detail-20132014.scss */
+.archive-detail-20132014 .nopadding {
+  padding: 0;
+}
+/* line 65, ../sass/_archive-detail-20132014.scss */
+.archive-detail-20132014 .nomargin {
+  margin: 0;
+}
+/* line 69, ../sass/_archive-detail-20132014.scss */
+.archive-detail-20132014 .about {
+  width: 100%;
+  padding-top: 20px;
+  height: auto;
+  position: relative;
+}
+/* line 76, ../sass/_archive-detail-20132014.scss */
+.archive-detail-20132014 .membersmodule {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+/* line 82, ../sass/_archive-detail-20132014.scss */
+.archive-detail-20132014 .members1 {
+  height: 125px;
+  top: 0px;
+}
+/* line 87, ../sass/_archive-detail-20132014.scss */
+.archive-detail-20132014 .members2 {
+  height: 125px;
+  top: 0px;
+}
+/* line 92, ../sass/_archive-detail-20132014.scss */
+.archive-detail-20132014 .members3 {
+  height: 125px;
+  top: 0px;
+}
+/* line 97, ../sass/_archive-detail-20132014.scss */
+.archive-detail-20132014 .archivemodule {
+  margin-top: 95px;
+  position: relative;
+}
+/* line 102, ../sass/_archive-detail-20132014.scss */
+.archive-detail-20132014 .row {
+  padding: 0;
+  margin: 0;
+}
+/* line 107, ../sass/_archive-detail-20132014.scss */
+.archive-detail-20132014 .col-md-3 {
+  padding: 0;
+}
+/* line 111, ../sass/_archive-detail-20132014.scss */
+.archive-detail-20132014 .archivehoverpink {
+  width: 235px;
+  height: 166px;
+  overflow: hidden;
+}
+/* line 118, ../sass/_archive-detail-20132014.scss */
+.archive-detail-20132014 .archivehoverpink:hover {
+  background-color: rgba(239, 84, 95, 0.75);
+  opacity: 1;
   -webkit-transition: opacity .25s ease;
   -moz-transition: opacity .25s ease;
 }
-/* line 218, ../sass/_archive-detail.scss */
-.archive-detail .archive:hover .archivehoverpink {
-  opacity: 1;
-}
-/* line 222, ../sass/_archive-detail.scss */
-.archive-detail .archive:hover .archivehoverturq {
-  opacity: 1;
-}
-/* line 227, ../sass/_archive-detail.scss */
-.archive-detail a.archivetext {
-  padding-left: 45px;
-  line-height: 270px;
-  color: #ffffff;
-  font-family: "Open Sans";
-  font-size: 22px;
-}
-/* line 235, ../sass/_archive-detail.scss */
-.archive-detail a.archivetext:active, .archive-detail a.archivetext:visited, .archive-detail a.archivetext:hover {
-  padding-left: 45px;
-  color: #ffffff;
-  font-family: "Open Sans";
-  font-size: 22px;
-  text-decoration: none;
-}
-/* line 243, ../sass/_archive-detail.scss */
-.archive-detail #text {
-  position: absolute;
-  top: 45px;
+/* line 126, ../sass/_archive-detail-20132014.scss */
+.archive-detail-20132014 .archivehoverturq {
   width: 235px;
+  height: 166px;
+  overflow: hidden;
 }
-/* line 249, ../sass/_archive-detail.scss */
-.archive-detail .bookspaddingleft {
-  padding-left: 20px;
-  z-index: 1;
+/* line 133, ../sass/_archive-detail-20132014.scss */
+.archive-detail-20132014 .archivehoverturq:hover {
+  /*width: 187.2px;*/
+  background-color: rgba(12, 172, 156, 0.75);
+  opacity: 1;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+}
+/* line 143, ../sass/_archive-detail-20132014.scss */
+.archive-detail-20132014 img.portrait {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+/* line 148, ../sass/_archive-detail-20132014.scss */
+.archive-detail-20132014 img.landscape {
+  height: 100%;
+  width: auto;
+  overflow: hidden;
+}
+/* line 154, ../sass/_archive-detail-20132014.scss */
+.archive-detail-20132014 span.archiveoverlayturq {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(12, 172, 156, 0.75);
+  display: table;
+  width: 235px;
+  height: 166px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+/* line 169, ../sass/_archive-detail-20132014.scss */
+.archive-detail-20132014 span.archiveoverlaypink {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(239, 84, 95, 0.75);
+  display: table;
+  width: 235px;
+  height: 166px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+/* line 184, ../sass/_archive-detail-20132014.scss */
+.archive-detail-20132014 span.archiveoverlayturq:hover {
+  opacity: 1;
+}
+/* line 188, ../sass/_archive-detail-20132014.scss */
+.archive-detail-20132014 span.archiveoverlaypink:hover {
+  opacity: 1;
+}
+/* line 192, ../sass/_archive-detail-20132014.scss */
+.archive-detail-20132014 .archiveyear {
+  padding-left: 85px;
+  padding-top: 115px;
   color: #ffffff;
-  font-family: "Open Sans";
-  font-size: 32px;
-  line-height: 55px;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
 }
-/* line 258, ../sass/_archive-detail.scss */
-.archive-detail a.bookspaddingleft:visited, .archive-detail a.bookspaddingleft:active, .archive-detail a.bookspaddingleft:hover {
-  color: #f0fffd;
-  text-decoration: none;
+
+/* line 3, ../sass/_archive-detail-20142015.scss */
+.archive-detail-20142015 .hero {
+  margin-top: 50px;
+  width: 100%;
+  height: 659px;
+  position: relative;
 }
-/* line 263, ../sass/_archive-detail.scss */
-.archive-detail a.books {
-  z-index: 1;
+/* line 10, ../sass/_archive-detail-20142015.scss */
+.archive-detail-20142015 .heromain {
+  /*width: 469px;*/
+  height: 540px;
+  position: absolute;
+  left: 0px;
+  overflow: hidden;
+}
+/* line 19, ../sass/_archive-detail-20142015.scss */
+.archive-detail-20142015 .herosub {
+  /* width: 469px;*/
+  height: 360px;
+  position: absolute;
+  right: 0;
+  overflow: hidden;
+}
+/* line 26, ../sass/_archive-detail-20142015.scss */
+.archive-detail-20142015 .herosub2 {
+  /*width: 238px;*/
+  height: 180px;
+  position: absolute;
+  top: 359px;
+  overflow: hidden;
+}
+/* line 34, ../sass/_archive-detail-20142015.scss */
+.archive-detail-20142015 .herosub3 {
+  /* width: 238px;*/
+  height: 180px;
+  position: absolute;
+  top: 359px;
+  overflow: hidden;
+}
+/* line 43, ../sass/_archive-detail-20142015.scss */
+.archive-detail-20142015 .herotitle {
+  /*width: 936px;*/
+  height: 120px;
+  position: absolute;
+  top: 538px;
+  background-color: #6ba0c2;
+}
+/* line 51, ../sass/_archive-detail-20142015.scss */
+.archive-detail-20142015 p#titlebook {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
   color: #ffffff;
-  font-family: "Open Sans";
-  font-size: 32px;
+  position: relative;
+  top: 25px;
+  padding-left: 50px;
 }
-/* line 270, ../sass/_archive-detail.scss */
-.archive-detail a.books:visited, .archive-detail a.books:active, .archive-detail a.books:hover {
-  color: #f0fffd;
-  text-decoration: none;
+/* line 61, ../sass/_archive-detail-20142015.scss */
+.archive-detail-20142015 .nopadding {
+  padding: 0;
+}
+/* line 65, ../sass/_archive-detail-20142015.scss */
+.archive-detail-20142015 .nomargin {
+  margin: 0;
+}
+/* line 69, ../sass/_archive-detail-20142015.scss */
+.archive-detail-20142015 .about {
+  width: 100%;
+  padding-top: 20px;
+  height: auto;
+  position: relative;
+}
+/* line 76, ../sass/_archive-detail-20142015.scss */
+.archive-detail-20142015 .membersmodule {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+/* line 82, ../sass/_archive-detail-20142015.scss */
+.archive-detail-20142015 .members1 {
+  height: 125px;
+  top: 0px;
+}
+/* line 87, ../sass/_archive-detail-20142015.scss */
+.archive-detail-20142015 .members2 {
+  height: 125px;
+  top: 0px;
+}
+/* line 92, ../sass/_archive-detail-20142015.scss */
+.archive-detail-20142015 .members3 {
+  height: 125px;
+  top: 0px;
+}
+/* line 97, ../sass/_archive-detail-20142015.scss */
+.archive-detail-20142015 .archivemodule {
+  margin-top: 95px;
+  position: relative;
+}
+/* line 102, ../sass/_archive-detail-20142015.scss */
+.archive-detail-20142015 .row {
+  padding: 0;
+  margin: 0;
+}
+/* line 107, ../sass/_archive-detail-20142015.scss */
+.archive-detail-20142015 .col-md-3 {
+  padding: 0;
+}
+/* line 111, ../sass/_archive-detail-20142015.scss */
+.archive-detail-20142015 .archivehoverpink {
+  width: 235px;
+  height: 166px;
+  overflow: hidden;
+}
+/* line 118, ../sass/_archive-detail-20142015.scss */
+.archive-detail-20142015 .archivehoverpink:hover {
+  background-color: rgba(239, 84, 95, 0.75);
+  opacity: 1;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+}
+/* line 126, ../sass/_archive-detail-20142015.scss */
+.archive-detail-20142015 .archivehoverturq {
+  width: 235px;
+  height: 166px;
+  overflow: hidden;
+}
+/* line 133, ../sass/_archive-detail-20142015.scss */
+.archive-detail-20142015 .archivehoverturq:hover {
+  /*width: 187.2px;*/
+  background-color: rgba(12, 172, 156, 0.75);
+  opacity: 1;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+}
+/* line 143, ../sass/_archive-detail-20142015.scss */
+.archive-detail-20142015 img.portrait {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+/* line 148, ../sass/_archive-detail-20142015.scss */
+.archive-detail-20142015 img.landscape {
+  height: 100%;
+  width: auto;
+  overflow: hidden;
+}
+/* line 154, ../sass/_archive-detail-20142015.scss */
+.archive-detail-20142015 span.archiveoverlayturq {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(12, 172, 156, 0.75);
+  display: table;
+  width: 235px;
+  height: 166px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+/* line 169, ../sass/_archive-detail-20142015.scss */
+.archive-detail-20142015 span.archiveoverlaypink {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(239, 84, 95, 0.75);
+  display: table;
+  width: 235px;
+  height: 166px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+/* line 184, ../sass/_archive-detail-20142015.scss */
+.archive-detail-20142015 span.archiveoverlayturq:hover {
+  opacity: 1;
+}
+/* line 188, ../sass/_archive-detail-20142015.scss */
+.archive-detail-20142015 span.archiveoverlaypink:hover {
+  opacity: 1;
+}
+/* line 192, ../sass/_archive-detail-20142015.scss */
+.archive-detail-20142015 .archiveyear {
+  padding-left: 85px;
+  padding-top: 115px;
+  color: #ffffff;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
 }
 
 /* Process Page */
