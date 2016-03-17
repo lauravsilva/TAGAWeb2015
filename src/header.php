@@ -33,13 +33,13 @@
                 <div class="navbar navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li <?= $active_page == "home" ? "class='active'": ""?>><div class="navlink"><a href="index.php">HOME</a></div></li>
-                        <li class="dropdown navlink"><div id="navdropdown">
+                       <div id="navdropdown"> <li class="dropdown navlink">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT</a>
                             <ul class="dropdown-menu">
                                 <li><a href="members.php">MEMBERS</a></li>
                                 <li><a href="process.php">PROCESS</a></li>
                             </ul>
-                            </div></li>
+                            </li></div>
                         <li><div class="navbar-brand"><a href="index.php"><img src="assets/logo_desktop.png" id="tagalogo"></a></div></li>
                         <li <?= $active_page == "portfolio" ? "class='active'": ""?>><div class="navlink"><a href="portfolio.php">WORK</a></div></li>
                         <li <?= $active_page == "blog" ? "class='active'": ""?>><div class="navlink"><a href="blog.php">BLOG</a></div></li>
