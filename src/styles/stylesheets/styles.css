@@ -8878,7 +8878,7 @@ a:hover {
 }
 /* line 20, ../sass/_home.scss */
 .home .carousel-inner {
-  width: 1020px;
+  max-width: 940px;
   height: 410px;
 }
 
