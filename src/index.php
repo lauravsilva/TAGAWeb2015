@@ -28,7 +28,7 @@ include "header.php";
                             -->
                         </div>
                         <div class="item">
-                            <img src="assets/carousel2.png" alt="">
+                            <img src="assets/carousel2.jpg" alt="">
                         </div>
                         <div class="item">
                             <img src="assets/carousel3.jpg" alt="">
@@ -49,8 +49,8 @@ include "header.php";
         </div>
 
         <div class="row">
-            <div id="ebook">
-            <a href="http://ow.ly/ZCw1C" target="_blank"><h2 class="blue">DOWNLOAD OUR 2016 EBOOK</h2></a>
+            <div>
+            <a href="http://ow.ly/ZCw1C" target="_blank"><h2 id="ebook">DOWNLOAD OUR 2016 EBOOK</h2></a>
             </div>
             <div class="col-md-offset-1 col-md-8 about">
                 <p>The RIT Student Chapter of TAGA (Technical Association of the Graphic Arts) conceptualizes, designs, and produces a yearly print and digital publication containing technical papers written by undergraduate and graduate students. Our chapter is comprised of a diverse range of students that enjoy learning about and being part of the graphic arts industry. Each year the chapter travels to the TAGA Conference where we compete with other schools.</p>

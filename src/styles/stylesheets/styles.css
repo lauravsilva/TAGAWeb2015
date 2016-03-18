@@ -13,8 +13,10 @@ html {
 }
 
 #ebook {
-    margin: auto;
-}s
+    text-align: center;
+    color:#08ad9d;
+    
+}
 
 #navlogo {
     margin: auto;
