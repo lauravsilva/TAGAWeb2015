@@ -17,7 +17,7 @@
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
     
-    <link rel="icon" href="assets/logo_desktop.png">
+    <link rel="icon" href="assets/taga2016.jpg">
     </head>
 
 <body>
