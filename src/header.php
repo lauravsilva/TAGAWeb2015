@@ -38,7 +38,7 @@
                             </li></div>
                         <li><div class="navbar-brand"><a href="index.php"><img src="assets/logo_desktop.png" id="tagalogo"></a></div></li>
                         <li <?= $active_page == "portfolio" ? "class='active'": ""?>><div class="navlink"><a href="portfolio.php">PORTFOLIO</a></div></li>
-                        <li <?= $active_page == "blog" ? "class='active'": ""?>><div class="navlink"><a href="blog.php">BLOG</a></div></li>
+                        <li <?= $active_page == "blog" ? "class='active'": ""?>><div class="navlink"><a href="https://rittaga.wordpress.com/" target="_blank">BLOG</a></div></li>
                     </ul>
                 </div><!--/.nav-collapse -->
             </div>
