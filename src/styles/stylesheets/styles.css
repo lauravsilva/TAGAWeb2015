@@ -8865,15 +8865,12 @@ a:hover {
 }
 
 /* line 2, ../sass/_home.scss */
-.home .about {
-  margin-top: 40px;
-}
 /* line 6, ../sass/_home.scss */
 .home .donate-btn {
   background: url(../../assets/home-fundraising.png);
   width: 140px;
   height: 140px;
-  margin: 40px 0;
+  margin: 25px 0;
 }
 /* line 13, ../sass/_home.scss */
 .home .contact-btn {
