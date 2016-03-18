@@ -132,8 +132,8 @@ img.landscape {
     }
     
 #about{
-    /*width: 940px;*/
-    
+    width: 940px;
+    margin:auto;
 }
 
 #contactUs{
