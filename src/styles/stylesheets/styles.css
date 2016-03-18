@@ -12,6 +12,10 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
+#navlogo {
+    margin: auto;
+}
+
 /* line 19, ../sass/bootstrap/_normalize.scss */
 body {
   margin: 0;
@@ -5854,6 +5858,7 @@ tbody.collapse.in {
   /* line 270, ../sass/bootstrap/_navbar.scss */
   .navbar-nav > li {
     float: left;
+      width: 20%;
   }
   /* line 272, ../sass/bootstrap/_navbar.scss */
   .navbar-nav > li > a {
@@ -6029,6 +6034,7 @@ tbody.collapse.in {
 /* line 401, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-brand {
   color: #777;
+    margin: auto !important;
 }
 /* line 403, ../sass/bootstrap/_navbar.scss */
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
@@ -9133,6 +9139,7 @@ a .social-icons {
 .navigation .nav {
   height: 80px;
   margin: 0 auto;
+    width: 100%;
 }
 /* line 33, ../sass/_nav.scss */
 .navigation .navbar {
@@ -9168,11 +9175,12 @@ a .social-icons {
 /* line 64, ../sass/_nav.scss */
 .navigation .navlink {
   width: 150px;
-  height: 50px;
+  height: 80px;
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   text-align: center;
   display: table;
+    margin: auto;
 }
 /* line 77, ../sass/_nav.scss */
 .navigation #tagalogo {
