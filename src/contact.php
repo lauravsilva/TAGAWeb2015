@@ -1,12 +1,9 @@
-<!doctype html>
+<?php
+	$title = "TAGA | Members";
+	$active_page = "members";
+	include "header.php";
+?> 
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-
-  <title>Contact</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<link href="styles/stylesheets/styles.css" rel="stylesheet" type="text/css">
 <style>
     body {
         width: 100%;
@@ -227,14 +224,6 @@ textarea {
     }
 
 </style>
-  
-    
-</head>
-
-<body>
-<header>
-</header>
-    <div id="content">
         <h1>Contact Us</h1>
         
     <div class="row nopadding">
@@ -304,5 +293,4 @@ textarea {
  <div class="row nopadding">  
 
     </div>    
-</body>
-</html>
+<?php include('footer.php'); ?>
