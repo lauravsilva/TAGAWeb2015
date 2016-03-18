@@ -49,6 +49,9 @@ include "header.php";
         </div>
 
         <div class="row">
+            <div id="ebook">
+            <a href="http://ow.ly/ZCw1C" target="_blank"><h2 class="blue">DOWNLOAD OUR 2016 EBOOK</h2></a>
+            </div>
             <div class="col-md-offset-1 col-md-8 about">
                 <p>The RIT Student Chapter of TAGA (Technical Association of the Graphic Arts) conceptualizes, designs, and produces a yearly print and digital publication containing technical papers written by undergraduate and graduate students. Our chapter is comprised of a diverse range of students that enjoy learning about and being part of the graphic arts industry. Each year the chapter travels to the TAGA Conference where we compete with other schools.</p>
 
@@ -58,13 +61,13 @@ include "header.php";
 
             <div class="col-md-1">
                 <!-----Donate-->  
-                <div class="donate-btn">
-                </div>  
+                <a href="https://securelb.imodules.com/s/1624/index-giving.aspx?sid=1624&gid=1&pgid=705&cid=1466&fid=1466&gfid=800&bledit=1" target="_blank"><div class="donate-btn">
+                </div></a>  
 
 
                 <!-----Contact-->  
-                <div class="contact-btn">
-                </div> 
+                <a href="contact.php"><div class="contact-btn">
+                </div></a>
 
             </div>
 

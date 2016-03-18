@@ -12,6 +12,10 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
+#ebook {
+    margin: auto;
+}s
+
 #navlogo {
     margin: auto;
 }
